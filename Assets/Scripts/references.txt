@@ -1,0 +1,7 @@
+References: 
+
+All SFX: free sound effects from https://www.fesliyanstudios.com
+
+Zombie asset by Pxltiger taken from the Unity Asset Store 
+
+Street light asset- "Single Street Lamp" by Christopher Fisher on the Unity Asset Store
