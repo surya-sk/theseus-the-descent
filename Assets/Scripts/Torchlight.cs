@@ -12,15 +12,11 @@ public class Torchlight : MonoBehaviour
     [SerializeField] float minAngle = 40;
     Light light;
     [SerializeField] AudioClip clip;
-    [SerializeField] Canvas canvas;
 
     private void Start()
     {
         light = GetComponent<Light>();
         light.enabled = false;
-        canvas.enabled = true;
-        Time.timeScale = 0;
-        Cursor.visible = false;
     }
 
     private void Update()
@@ -37,11 +33,6 @@ public class Torchlight : MonoBehaviour
     {
         if(Input.GetKeyDown("f") || Mathf.Round(Input.GetAxisRaw("Torch")) > 0)
         {
-            if(canvas.enabled == true)
-            {
-                canvas.enabled = false;
-                Time.timeScale = 1;
-            }
             AudioSource.PlayClipAtPoint(clip, gameObject.transform.position);
             if(light.enabled)
             {
