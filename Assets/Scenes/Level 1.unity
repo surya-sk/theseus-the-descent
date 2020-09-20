@@ -345,6 +345,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &601142170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: bf5176189eca2a943a46af2c9b6557db,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129513640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &601142172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601142170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.905704, y: 2.134285, z: 6.54521}
+  m_Center: {x: -0.18378681, y: 0.5671425, z: -0.8566742}
 --- !u!4 &867254526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 528737900857878727, guid: cf7ffc6cf6e98164e916feb38556b482,
