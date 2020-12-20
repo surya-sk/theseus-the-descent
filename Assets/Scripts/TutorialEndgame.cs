@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class TutorialEndgame : MonoBehaviour
 {
-    [SerializeField] Canvas gameOverScreen;
     int enemyCount = 0;
     [SerializeField] TextMeshProUGUI enemyCountText;
     [SerializeField] Canvas winScreen;
@@ -13,7 +12,6 @@ public class TutorialEndgame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameOverScreen.enabled = false;
         winScreen.enabled = false;
         deathHandler = FindObjectOfType<DeathHandler>();
     }
@@ -23,7 +21,31 @@ public class TutorialEndgame : MonoBehaviour
     {
         print(enemyCount);
         enemyCount = deathHandler.GetEnemyCount();
+        DisplayEnemyCount();
+        if (enemyCount == 2)
+        {
+            EnableWinScreen();
+            if (Input.GetKeyDown(KeyCode.JoystickButton1) || Input.GetKeyDown(KeyCode.B))
+            {
+                winScreen.enabled = false;
+                Time.timeScale = 1;
+                FindObjectOfType<SwitchWeapon>().enabled = true;
+                Cursor.visible = false;
+                AudioListener.pause = false;
+            }
+        }
     }
+
+    private void EnableWinScreen()
+    {
+        winScreen.enabled = true;
+        Time.timeScale = 0;
+        FindObjectOfType<SwitchWeapon>().enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        AudioListener.pause = true;
+    }
+
     private void DisplayEnemyCount()
     {
         enemyCountText.text = "Kill Count: " + enemyCount;
