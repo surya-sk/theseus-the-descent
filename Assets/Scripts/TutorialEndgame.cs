@@ -24,7 +24,7 @@ public class TutorialEndgame : MonoBehaviour
         print(enemyCount);
         enemyCount = deathHandler.GetEnemyCount();
         DisplayEnemyCount();
-        if (enemyCount == 2)
+        if (enemyCount == 5)
         {
             if(!continuePlaying) EnableWinScreen();
             if (Input.GetKeyDown(KeyCode.JoystickButton1) || Input.GetKeyDown(KeyCode.B))
