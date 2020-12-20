@@ -44,7 +44,10 @@ public class DeathHandler : MonoBehaviour
         AudioListener.pause = true;
     }
 
-
+    public int GetEnemyCount()
+    {
+        return enemyCount;
+    }
 
     public void IncreaseEnemyCount()
     {
