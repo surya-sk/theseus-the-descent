@@ -9,6 +9,8 @@ public class TutorialEndgame : MonoBehaviour
     [SerializeField] TextMeshProUGUI enemyCountText;
     [SerializeField] Canvas winScreen;
     DeathHandler deathHandler;
+    bool continuePlaying = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,9 +26,10 @@ public class TutorialEndgame : MonoBehaviour
         DisplayEnemyCount();
         if (enemyCount == 2)
         {
-            EnableWinScreen();
+            if(!continuePlaying) EnableWinScreen();
             if (Input.GetKeyDown(KeyCode.JoystickButton1) || Input.GetKeyDown(KeyCode.B))
             {
+                continuePlaying = true;
                 winScreen.enabled = false;
                 Time.timeScale = 1;
                 FindObjectOfType<SwitchWeapon>().enabled = true;
