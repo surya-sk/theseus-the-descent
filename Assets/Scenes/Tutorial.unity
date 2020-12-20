@@ -6009,6 +6009,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4378076831653845047, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_text
+      value: Press B (keyboard) or B (controller) to keep playing
+      objectReference: {fileID: 0}
     - target: {fileID: 4378076831685156154, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
       propertyPath: m_IsActive
