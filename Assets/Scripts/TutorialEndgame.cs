@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿///<summary>
+/// Handles the tutorial end game : either win or lose
+///</summary>
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -24,9 +27,18 @@ public class TutorialEndgame : MonoBehaviour
         print(enemyCount);
         enemyCount = deathHandler.GetEnemyCount();
         DisplayEnemyCount();
-        if (enemyCount == 5)
+        EndGame();
+    }
+
+    /// <summary>
+    /// Ends the game if enough enemies are killed
+    /// while giving the player the option to continue playing
+    /// </summary>
+    private void EndGame()
+    {
+        if (enemyCount == 8)
         {
-            if(!continuePlaying) EnableWinScreen();
+            if (!continuePlaying) EnableWinScreen();
             if (Input.GetKeyDown(KeyCode.JoystickButton1) || Input.GetKeyDown(KeyCode.B))
             {
                 continuePlaying = true;
@@ -39,6 +51,9 @@ public class TutorialEndgame : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Enables the win screen
+    /// </summary>
     private void EnableWinScreen()
     {
         winScreen.enabled = true;
@@ -49,6 +64,9 @@ public class TutorialEndgame : MonoBehaviour
         AudioListener.pause = true;
     }
 
+    /// <summary>
+    /// Displays the kill count on the screen
+    /// </summary>
     private void DisplayEnemyCount()
     {
         enemyCountText.text = "Kill Count: " + enemyCount;
