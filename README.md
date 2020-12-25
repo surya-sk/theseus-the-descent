@@ -25,4 +25,4 @@ Then, you need to have Unity Hub installed. After installing Unity Hub, follow t
 You're all set!
 
 ## Feedback
-All feedback, especially constructive, is appreciated. To report bugs or request features, create an issue on GitHub or [email me](surya.sk05@outlook.com) if you don't have a GitHub account. Please be as specific as possible when creating issues and be sure to provide steps to reproduce when reporting bugs. PRs are welcome.  
+All feedback, especially constructive, is appreciated. To report bugs or request features, create an issue on GitHub or [email me](mailto:surya.sk05@outlook.com) if you don't have a GitHub account. Please be as specific as possible when creating issues and be sure to provide steps to reproduce when reporting bugs. PRs are welcome.  
