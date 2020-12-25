@@ -44,6 +44,9 @@ public class Torchlight : MonoBehaviour, ISaveable
         }
     }
 
+    /// <summary>
+    /// Toggle the torchlight on and off based on input
+    /// </summary>
     private void ToggleLight()
     {
         if(Input.GetKeyDown("f") || Mathf.Round(Input.GetAxisRaw("Torch")) > 0)
@@ -60,6 +63,9 @@ public class Torchlight : MonoBehaviour, ISaveable
         }
     }
 
+    /// <summary>
+    /// Decrease the light angle over time
+    /// </summary>
     private void DecreaseLightAngle()
     {
         if(light.spotAngle <= minAngle)
@@ -69,6 +75,9 @@ public class Torchlight : MonoBehaviour, ISaveable
         light.spotAngle -= angleDecay * Time.deltaTime;
     }
 
+    /// <summary>
+    /// Decrease the light intensity over time
+    /// </summary>
     private void DecreaseLightIntensity()
     {
         light.intensity -= intensityDecay * Time.deltaTime;

@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿///<summary>
+///The pause menu that can be called any time during the game
+///</summary>
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -17,6 +20,9 @@ public class PauseMenu : MonoBehaviour
         PauseOverlay();
     }
 
+    /// <summary>
+    /// Show pause menu when pause button is clicked
+    /// </summary>
     private void PauseOverlay()
     {
         if(Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Esc"))

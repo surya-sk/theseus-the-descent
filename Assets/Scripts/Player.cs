@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿///<summary>
+///A mono-functional class that saves player location
+///</summary>
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

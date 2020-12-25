@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿///<summary>
+///Handles Enemy health
+///</summary>
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -8,11 +11,20 @@ public class EnemyHealth : MonoBehaviour, ISaveable
     [SerializeField] float damageCap = 100f; //damage capacity: decreases as damage is done
     bool isDead = false;
 
-
+    /// <summary>
+    ///  Enemy state
+    /// </summary>
+    /// <returns>Whether emeny is dead</returns>
     public bool EnemyIsDead()
     {
         return isDead;
     }
+    
+    /// <summary>
+    /// Decrease enemy heath when damage has been taken
+    /// </summary>
+    /// <param name="damage"></param>
+    /// <param name="ammoType"></param>
     public void Damage(float damage, AmmoType ammoType)
     {
         BroadcastMessage("OnBeingHit");
