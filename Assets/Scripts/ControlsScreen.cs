@@ -18,7 +18,7 @@ public class ControlsScreen : MonoBehaviour
     {
         if(ControlsMenu.isActiveAndEnabled)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Joystick1Button1))
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.JoystickButton1))
             {
                 GoBack();
             }
