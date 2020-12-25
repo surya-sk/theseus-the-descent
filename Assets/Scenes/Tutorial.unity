@@ -6082,12 +6082,22 @@ PrefabInstance:
     - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
       propertyPath: m_text
-      value: Kill 5 zombies
+      value: Kill 8 zombies
       objectReference: {fileID: 0}
     - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4378076832277072971, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
