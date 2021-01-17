@@ -11,6 +11,10 @@ public class BackgroundSFX : MonoBehaviour
     {
         AudioListener.pause = false;
     }
+
+    /// <summary>
+    /// Plays background fx
+    /// </summary>
     private void Update()
     {
         if (nightSounds.isPlaying == false)
