@@ -9,11 +9,12 @@ using TMPro;
 public class DeathHandler : MonoBehaviour
 {
     int enemyCount = 0;
-    [SerializeField] Canvas gameOverScreen;
+    SceneLoader scene;
+    
 
     void Start()
     {
-        gameOverScreen.enabled = false;
+        scene = FindObjectOfType<SceneLoader>();
     }
 
     /// <summary>
@@ -21,13 +22,7 @@ public class DeathHandler : MonoBehaviour
     /// </summary>
     public void HandleDeath()
     {
-        gameOverScreen.enabled = true;
-        Time.timeScale = 0;
-        AudioListener.pause = true;
-        FindObjectOfType<SwitchWeapon>().enabled = false;
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        AudioListener.pause = true;
+        scene.GameOver();
     }
 
     /// <summary>
