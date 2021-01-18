@@ -2,10 +2,10 @@
 Theseus: The Descent is a first-person horror shooter made using the Unity Engine. The game is currently a demo, but it is being worked on regularly. The game is set in a dark forrest, where you are trapped in a zombie-filled wildland with a flashlight and three guns.
 
 There are currently three gun types and three ammo types in the game. Flashlight pickups are also available in game. 
-Chapters with narrative coming soon.
+Chapter 1 is currently being developed and will be out soon.
 
 ## Installation
-The app is free to download for Windows 10 PCs, Xbox One and Xbox Series X via the [Microsoft Store](https://www.microsoft.com/en-us/p/theseus-the-descent/9nwzzffbw70t?activetab=pivot:overviewtab), made possible by the UWP framework.
+The game is free to download for Windows 10 PCs, Xbox One and Xbox Series X via the [Microsoft Store](https://www.microsoft.com/en-us/p/theseus-the-descent/9nwzzffbw70t?activetab=pivot:overviewtab), made possible by the Universal Windows Platform framework.
 
 ## Screenshots
 [![Desktop-Screenshot.png](https://i.postimg.cc/V6QqWw8V/Desktop-Screenshot.png)](https://postimg.cc/R3dJvjq7)
