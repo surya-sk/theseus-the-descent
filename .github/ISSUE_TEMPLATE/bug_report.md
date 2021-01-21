@@ -25,6 +25,5 @@ If applicable, add screenshots to help explain your problem.
 ## Platform
 Specify what platform(s) (PC, Xbox, Mac etc) you're experiencing the bug on 
 
-
-**Additional context**
+##Additional context
 Add any other context about the problem here.
