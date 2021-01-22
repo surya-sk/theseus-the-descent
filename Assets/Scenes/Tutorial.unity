@@ -2915,6 +2915,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.XSensitivity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.YSensitivity
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8802183318966647605, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: ammoText
@@ -6022,7 +6032,7 @@ PrefabInstance:
     - target: {fileID: 4378076831256797152, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4378076831277919547, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
