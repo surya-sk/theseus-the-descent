@@ -24,7 +24,6 @@ public class TutorialEndgame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(enemyCount);
         enemyCount = deathHandler.GetEnemyCount();
         DisplayEnemyCount();
         EndGame();

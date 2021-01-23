@@ -32,8 +32,7 @@ public class PauseMenu : MonoBehaviour
                 pauseCanvas.enabled = true;
                 Time.timeScale = 0;
                 FindObjectOfType<SwitchWeapon>().enabled = false;
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                Cursor.visible = false;
                 AudioListener.pause = true;
             }
             else
