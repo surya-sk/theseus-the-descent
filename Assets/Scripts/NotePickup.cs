@@ -34,10 +34,12 @@ public class NotePickup : MonoBehaviour
         {
             promptText.text = "Press B to exit";
             noteCanvas.enabled = true;
+            Time.timeScale = 0;
             if(Input.GetMouseButtonDown(1) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
             {
                 isReadingNote = false;
                 noteCanvas.enabled = false;
+                Time.timeScale = 1;
                 promptText.text = "Press LT to interact";
             }
         }
