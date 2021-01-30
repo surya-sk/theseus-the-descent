@@ -1,5 +1,5 @@
 ## Description
-Theseus: The Descent is a first-person horror shooter made using the Unity Engine. The game is currently a demo, but it is being worked on regularly. The game is set in a dark forrest, where you are trapped in a zombie-filled wildland with a flashlight and three guns.
+Theseus: The Descent is a first-person horror shooter made using the Unity Engine. The game is currently a demo, but it is being worked on regularly. The game is set in a dark forest, where you are trapped in a zombie-filled wildland with a flashlight and three guns.
 
 There are currently three gun types and three ammo types in the game. Flashlight pickups are also available in game. 
 Chapter 1 is currently being developed and will be out soon.
