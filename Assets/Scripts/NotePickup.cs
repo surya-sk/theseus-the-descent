@@ -59,6 +59,7 @@ public class NotePickup : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             promptCanvas.enabled = false;
+            isNearNote = false;
         }
     }
 }
