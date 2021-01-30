@@ -548,6 +548,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35b7f656e255f7f4db1ac35ccc16880a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  promptCanvas: {fileID: 466654589}
+  promptText: {fileID: 1272378863}
 --- !u!1 &659391904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,7 +1453,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press K or RB to interact
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e7278d98c8e38c148a6c8e7d2533f134, type: 2}
   m_sharedMaterial: {fileID: -208034274223950540, guid: e7278d98c8e38c148a6c8e7d2533f134,
@@ -1521,13 +1523,13 @@ MonoBehaviour:
   m_margin: {x: -115.822235, y: 0, z: 30.89038, w: 0}
   m_textInfo:
     textComponent: {fileID: 1272378863}
-    characterCount: 25
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
