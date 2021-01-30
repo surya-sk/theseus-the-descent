@@ -7,6 +7,7 @@ public class NotePickup : MonoBehaviour
 {
     [SerializeField] Canvas promptCanvas;
     [SerializeField] TextMeshProUGUI promptText;
+    [SerializeField] Canvas noteCanvas;
     bool isNearNote;
     bool isReadingNote;
 
@@ -16,6 +17,7 @@ public class NotePickup : MonoBehaviour
         promptText.text = "Press LT to interact";
         isNearNote = false;
         isReadingNote = false;
+        noteCanvas.enabled = false;
     }
 
     private void Update()
@@ -31,9 +33,11 @@ public class NotePickup : MonoBehaviour
         else if(isReadingNote)
         {
             promptText.text = "Press B to exit";
+            noteCanvas.enabled = true;
             if(Input.GetMouseButtonDown(1) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
             {
                 isReadingNote = false;
+                noteCanvas.enabled = false;
                 promptText.text = "Press LT to interact";
             }
         }
