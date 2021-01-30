@@ -12,14 +12,12 @@ public class Torchlight : MonoBehaviour, ISaveable
     [SerializeField] float minAngle = 40;
     Light light;
     [SerializeField] AudioClip clip;
-    [SerializeField] Canvas torchCanvas;
     bool disableTorchCanvas;
 
     private void Start()
     {
         light = GetComponent<Light>();
         light.enabled = false;
-        print(disableTorchCanvas);
     }
 
     private void Update()
@@ -29,18 +27,6 @@ public class Torchlight : MonoBehaviour, ISaveable
         {
             DecreaseLightAngle();
             DecreaseLightIntensity();
-        }
-        if (!disableTorchCanvas)
-        {
-            torchCanvas.enabled = true;
-            if (Input.GetKeyDown("f") || Mathf.Round(Input.GetAxisRaw("Torch")) > 0)
-            {
-                disableTorchCanvas = true;
-            }
-        }
-        else
-        {
-            torchCanvas.enabled = false;
         }
     }
 
