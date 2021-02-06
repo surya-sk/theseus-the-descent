@@ -2,10 +2,13 @@
 
 public class SavingDemo: MonoBehaviour
 {
-    const string saveFile = "save";
+    SceneLoader sceneLoader;
+    string saveFile;
 
     private void Start()
     {
+        sceneLoader = FindObjectOfType<SceneLoader>();
+        saveFile = sceneLoader.GetSceneName();
         Load();        
     }
     public void Save()
@@ -16,7 +19,7 @@ public class SavingDemo: MonoBehaviour
     public void SaveAndQuit()
     {
         Save();
-        FindObjectOfType<SceneLoader>().MainMenu();
+        sceneLoader.MainMenu();
     }
 
     public void Load()

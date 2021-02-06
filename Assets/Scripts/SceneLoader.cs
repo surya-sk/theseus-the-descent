@@ -29,5 +29,10 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    public string GetSceneName()
+    {
+        return SceneManager.GetActiveScene().name;
+    }
    
 }
