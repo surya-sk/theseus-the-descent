@@ -23,14 +23,12 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
 
     public object CaptureState()
     {
-        print(objective + isFinished);
         return $"{isFinished},{objectiveString}";
     }
 
     public void RestoreState(object state)
     {
         string result = (string)state;
-        print("Result is " + state);
         string[] splitResult = result.Split(',');
         isFinished = Convert.ToBoolean(splitResult[0]);
         objective = splitResult[1];

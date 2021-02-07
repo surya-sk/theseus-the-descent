@@ -9,7 +9,6 @@ public class Player : MonoBehaviour, ISaveable
 {
     public object CaptureState()
     {
-        print(transform.position);
         return new SerializableVector3(transform.position);
     }
 
