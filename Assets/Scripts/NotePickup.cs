@@ -14,7 +14,7 @@ public class NotePickup : MonoBehaviour
     private void Start()
     {
         promptCanvas.enabled = false;
-        promptText.text = "Press LT to interact";
+        promptText.text = "Press LT or right click to interact";
         isNearNote = false;
         isReadingNote = false;
         noteCanvas.enabled = false;
@@ -24,7 +24,7 @@ public class NotePickup : MonoBehaviour
     {
         if(isNearNote && !isReadingNote)
         {
-            if (Input.GetKeyDown(KeyCode.B) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
+            if (Input.GetMouseButtonDown(1) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
             {
                 isReadingNote = true;
             }
@@ -32,7 +32,7 @@ public class NotePickup : MonoBehaviour
 
         else if(isReadingNote)
         {
-            promptText.text = "Press B to exit";
+            promptText.text = "Press LT or right click to exit";
             noteCanvas.enabled = true;
             Time.timeScale = 0;
             if(Input.GetMouseButtonDown(1) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
@@ -40,7 +40,7 @@ public class NotePickup : MonoBehaviour
                 isReadingNote = false;
                 noteCanvas.enabled = false;
                 Time.timeScale = 1;
-                promptText.text = "Press LT to interact";
+                promptText.text = "Press LT or right click to interact";
             }
         }
     }
