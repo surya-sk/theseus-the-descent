@@ -5,7 +5,7 @@ There are currently three gun types and three ammo types in the game. Flashlight
 Chapter 1 is currently being developed and will be out soon.
 
 ## Installation
-The game is free to download for Windows 10 PCs, Xbox One and Xbox Series X via the Microsoft Store, made possible by the Universal Windows Platform technology.
+The game is free to download for Windows 10 PCs, Xbox One and Xbox Series X via the Microsoft Store, made possible by the Microsoft's Universal Windows Platform framework.
 
 <a href='https://www.microsoft.com/en-us/p/theseus-the-descent/9nwzzffbw70t?activetab=pivot:overviewtab'><img src='https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png' alt='Store Link' height="50px"/></a>
 
@@ -14,14 +14,15 @@ The game is free to download for Windows 10 PCs, Xbox One and Xbox Series X via 
 
 ## Running this project
 To run this project, you need to have Visual Studio 2017 or higher. You need to have following components installed:
-- Universal Windows Platform development
 - Game development with Unity
+- .NET desktop developnment 
+- Universal Windows Platform development (Optional: only if you want to build the app packages for the Store)
 
 Then, you need to have Unity Hub installed. After installing Unity Hub, follow these steps:
 - Clone this project
 - Launch Unity Hub, make sure you activate a license and then click "Add" in the projects section
 - In the file picker, select where this project was cloned
-- Then, you will see this project appear in Unity Hub, with the required Unity editor version. Click on the version and the right Unity version will be installed
+- Then, you will see this project appear in Unity Hub, with a warning icon stating the exact version you need to install. Click on the icon and the right Unity version will be installed
 - Launch the project
 
 You're all set!
