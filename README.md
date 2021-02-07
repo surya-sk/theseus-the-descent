@@ -18,7 +18,7 @@ To run this project, you need to have Visual Studio 2017 or higher. You need to 
 - .NET desktop developnment 
 - Universal Windows Platform development (Optional: only if you want to build the app packages for the Store)
 
-Then, you need to have Unity Hub installed. After installing Unity Hub, follow these steps:
+Then, you need to have Unity Hub installed (just Bing it). After installing Unity Hub, follow these steps:
 - Clone this project
 - Launch Unity Hub, make sure you activate a license and then click "Add" in the projects section
 - In the file picker, select where this project was cloned
