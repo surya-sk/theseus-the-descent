@@ -24,7 +24,7 @@ public class NotePickup : MonoBehaviour
     {
         if(isNearNote && !isReadingNote)
         {
-            if (Input.GetMouseButtonDown(1) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
+            if (Input.GetKeyDown(KeyCode.B) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
             {
                 isReadingNote = true;
             }

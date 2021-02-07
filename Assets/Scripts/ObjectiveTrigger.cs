@@ -19,16 +19,19 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
         objective = objectiveString;
         objectiveText.text = objective;
         isFinished = true;
+        gameObject.GetComponent<BoxCollider>().enabled = false;
     }
 
     public object CaptureState()
     {
-        return $"{isFinished},{objectiveString}";
+        print("captured: " + isFinished + objective);
+        return $"{isFinished},{objective}";
     }
 
     public void RestoreState(object state)
     {
         string result = (string)state;
+        print(result);
         string[] splitResult = result.Split(',');
         isFinished = Convert.ToBoolean(splitResult[0]);
         objective = splitResult[1];
