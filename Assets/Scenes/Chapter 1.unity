@@ -1129,7 +1129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 525658675, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
       propertyPath: m_Volume
-      value: 0
+      value: 0.228
       objectReference: {fileID: 0}
     - target: {fileID: 165302407884244073, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
@@ -1265,6 +1265,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ReceiveShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 5817406771770558095, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
