@@ -28,7 +28,6 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     public object CaptureState()
     {
         print($"Saving {objective} and {isFinished}");
-        print($"Current objective is {ObjectiveManager.GetInstance().GetCurrentObjective()}");
         if(ObjectiveManager.GetInstance().GetCurrentObjective().Equals(objective))
         {
             return $"{isFinished},{objective}";
