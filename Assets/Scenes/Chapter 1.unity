@@ -120,6 +120,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &43788694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43788695}
+  - component: {fileID: 43788698}
+  - component: {fileID: 43788697}
+  - component: {fileID: 43788696}
+  m_Layer: 0
+  m_Name: ObjectiveTrigger (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43788695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43788694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 37.07, y: -0.32, z: -14.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 145814496}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &43788696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43788694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e2aa1dff0884740bc9c19ce2575487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: d94372ac-d5e1-4f5c-b2a3-a3a085874521
+--- !u!65 &43788697
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43788694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 9.331696, y: 1, z: 3.6067505}
+  m_Center: {x: -4.165848, y: 0, z: -1.3033752}
+--- !u!114 &43788698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43788694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveString: Keep going
+  objectiveText: {fileID: 6549704878010497193}
+  linkedObjective: {fileID: 0}
 --- !u!1001 &78077989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -288,6 +362,7 @@ Transform:
   - {fileID: 1628340785}
   - {fileID: 1074416085}
   - {fileID: 440722835}
+  - {fileID: 43788695}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -597,7 +672,7 @@ BoxCollider:
   m_GameObject: {fileID: 440722834}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 9.331696, y: 1, z: 3.6067505}
   m_Center: {x: -4.165848, y: 0, z: -1.3033752}
@@ -615,6 +690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveString: Patrol the area by following the path
   objectiveText: {fileID: 6549704878010497193}
+  linkedObjective: {fileID: 43788694}
 --- !u!114 &440722838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1953,7 +2029,7 @@ BoxCollider:
   m_GameObject: {fileID: 1074416084}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 0.28173828}
   m_Center: {x: 0, y: 0, z: 0.35913086}
@@ -1971,6 +2047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveString: Go outside
   objectiveText: {fileID: 6549704878010497193}
+  linkedObjective: {fileID: 440722834}
 --- !u!114 &1074416088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2825,8 +2902,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveString: 
+  objectiveString: Read the note
   objectiveText: {fileID: 6549704878010497193}
+  linkedObjective: {fileID: 1074416084}
 --- !u!114 &1628340788
 MonoBehaviour:
   m_ObjectHideFlags: 0
