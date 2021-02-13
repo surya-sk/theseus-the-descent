@@ -21,13 +21,20 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
         objectiveText.text = objective;
         isFinished = true;
         gameObject.GetComponent<BoxCollider>().enabled = false;
-        linkedObjective.GetComponent<BoxCollider>().enabled = true;
+        if(linkedObjective != null)
+        {
+            linkedObjective.GetComponent<BoxCollider>().enabled = true;
+        }
         ObjectiveManager.GetInstance().SetCurrentObjective(objective);
     }
 
     public object CaptureState()
     {
         print($"Saving {objective} and {isFinished}");
+        if(linkedObjective == null)
+        {
+            return null;
+        }
         if(ObjectiveManager.GetInstance().GetCurrentObjective().Equals(objective))
         {
             return $"{isFinished},{objective}";
