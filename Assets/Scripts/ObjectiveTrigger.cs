@@ -29,14 +29,13 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     {
         print($"Saving {objective} and {isFinished}");
         print($"Current objective is {ObjectiveManager.GetInstance().GetCurrentObjective()}");
-        if(!ObjectiveManager.GetInstance().GetCurrentObjective().Equals(objective))
+        if(ObjectiveManager.GetInstance().GetCurrentObjective().Equals(objective))
         {
-            print("Not this one " + objective);
-            return null;
+            return $"{isFinished},{objective}";
         }
         else
         {
-            return $"{isFinished},{objective}";
+            return null;
         }
     }
 
@@ -59,7 +58,6 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
                 linkedObjective.GetComponent<BoxCollider>().enabled = true;
             }
             objectiveText.text = objective;
-            print(objectiveText.text);
             gameObject.GetComponent<BoxCollider>().enabled = false;
         }
     }
