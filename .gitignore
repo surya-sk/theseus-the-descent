@@ -71,5 +71,7 @@ InitTestScene*.unity
 
 UWP
 
+/Assets/OST
+
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
