@@ -2049,6 +2049,7 @@ GameObject:
   - component: {fileID: 870367631}
   - component: {fileID: 870367630}
   - component: {fileID: 870367632}
+  - component: {fileID: 870367633}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2145,6 +2146,19 @@ MonoBehaviour:
   afternoonSkybox: {fileID: 2100000, guid: ac2eeb98f1b423941b373f537bc56e18, type: 2}
   nightSkybox: {fileID: 2100000, guid: 97637a2a763b7f24b8da4e139e4144ca, type: 2}
   lightMultiplier: 0.3
+--- !u!114 &870367633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870367629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e2aa1dff0884740bc9c19ce2575487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 5d0acedf-a45d-4357-b6e7-a2db7b4e985f
 --- !u!1 &883190973
 GameObject:
   m_ObjectHideFlags: 0

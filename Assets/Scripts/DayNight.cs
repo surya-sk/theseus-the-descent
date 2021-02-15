@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// Handles changing from night to day (by simple reducing intensity of direction light)
 /// </summary>
-public class DayNight : MonoBehaviour
+public class DayNight : MonoBehaviour, ISaveable
 {
     [SerializeField] Material afternoonSkybox;
     [SerializeField] Material nightSkybox;
@@ -40,12 +40,27 @@ public class DayNight : MonoBehaviour
     /// <returns></returns>
     IEnumerator ChangeTimeOfDay()
     {
-        while(light.intensity > 0.3f)
+        while(light.intensity > 0.2f)
         {
             light.intensity -= lightMultiplier;
             UpdateSkybox();
 
             yield return new WaitForSeconds(10);
         }
+    }
+
+    public object CaptureState()
+    {
+        return light.intensity;
+    }
+
+    public void RestoreState(object state)
+    {
+        print(state);
+        if(light == null)
+        {
+            light = gameObject.GetComponent<Light>();
+        }
+        light.intensity = (float)state;
     }
 }
