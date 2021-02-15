@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveString: Keep following the path
   objectiveText: {fileID: 6549704878010497193}
-  linkedObjective: {fileID: 0}
+  linkedObjective: {fileID: 427502904}
 --- !u!1001 &78077989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -840,7 +840,7 @@ BoxCollider:
   m_GameObject: {fileID: 327440223}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveString: Return to your car
   objectiveText: {fileID: 6549704878010497193}
-  linkedObjective: {fileID: 1074416084}
+  linkedObjective: {fileID: 0}
 --- !u!1 &427502904
 GameObject:
   m_ObjectHideFlags: 0
