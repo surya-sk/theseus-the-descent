@@ -10,13 +10,12 @@ public class DayNight : MonoBehaviour
     [SerializeField] Material afternoonSkybox;
     [SerializeField] Material nightSkybox;
     Light light;
-    float lightMultiplier;
+    [SerializeField]float lightMultiplier;
 
     // Start is called before the first frame update
     void Start()
     {
         light = gameObject.GetComponent<Light>();
-        lightMultiplier = 0.5f;
         StartCoroutine(ChangeTimeOfDay());
     }
 
