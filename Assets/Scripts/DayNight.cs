@@ -56,7 +56,6 @@ public class DayNight : MonoBehaviour, ISaveable
 
     public void RestoreState(object state)
     {
-        print(state);
         if(light == null)
         {
             light = gameObject.GetComponent<Light>();
