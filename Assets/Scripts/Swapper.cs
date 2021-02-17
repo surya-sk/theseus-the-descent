@@ -21,8 +21,7 @@ public class Swapper : MonoBehaviour, ISaveable
         hasSwapped = (bool)state;
         if(hasSwapped)
         {
-            Destroy(toSwap);
-            swapWith.SetActive(true);
+            SwapObjects();
         }
     }
 
@@ -30,9 +29,14 @@ public class Swapper : MonoBehaviour, ISaveable
     {
         if(objectiveTrigger.GetComponent<BoxCollider>().enabled)
         {
-            hasSwapped = true;
-            Destroy(toSwap);
-            swapWith.SetActive(true);
+            SwapObjects();
         }
+    }
+
+    private void SwapObjects()
+    {
+        hasSwapped = true;
+        Destroy(toSwap);
+        swapWith.SetActive(true);
     }
 }
