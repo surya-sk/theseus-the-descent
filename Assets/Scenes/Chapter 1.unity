@@ -1068,7 +1068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveString: Read the note on the table
+  objectiveString: Walk along the pathway
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1576667619}
 --- !u!4 &526527736
@@ -2076,7 +2076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   afternoonSkybox: {fileID: 2100000, guid: ac2eeb98f1b423941b373f537bc56e18, type: 2}
   nightSkybox: {fileID: 2100000, guid: 97637a2a763b7f24b8da4e139e4144ca, type: 2}
-  lightMultiplier: 0.023
+  lightMultiplier: 0.17
 --- !u!114 &870367633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3691,7 +3691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431457924}
   m_LocalRotation: {x: -0, y: 0.0016232384, z: -0, w: 0.9999987}
-  m_LocalPosition: {x: -58.2, y: 3.9999998, z: -444.4}
+  m_LocalPosition: {x: -32.9, y: 1.86, z: -444.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 145814496}
@@ -5127,6 +5127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1511624919418988968, guid: f2a4b2dac252dc14ba4731a23d99a370,
+        type: 3}
+      propertyPath: pickupClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 49ea1492725956e4195686f4ef2d6b0c, type: 3}
     - target: {fileID: 3420036622631859434, guid: f2a4b2dac252dc14ba4731a23d99a370,
         type: 3}
       propertyPath: m_Name
@@ -5331,8 +5336,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 124.64757, y: 10.750206, z: 41.7555}
-  m_Center: {x: 47.035378, y: 1.2516899, z: -18.168388}
+  m_Size: {x: 76.903046, y: 10.750206, z: 41.7555}
+  m_Center: {x: 23.16293, y: 1.2516899, z: -18.168385}
 --- !u!114 &2055989466
 MonoBehaviour:
   m_ObjectHideFlags: 0
