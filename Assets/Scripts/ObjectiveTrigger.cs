@@ -30,7 +30,6 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
 
     public object CaptureState()
     {
-        print($"Saving {objective} and {isFinished}");
         if(nextObjective == null)
         {
             return null;
@@ -56,7 +55,6 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
         isFinished = Convert.ToBoolean(splitResult[0]);
         objective = splitResult[1];
         ObjectiveManager.GetInstance().SetCurrentObjective(objective);
-        print($"Loading {objective}");
         if (isFinished)
         {
             if (nextObjective != null)
