@@ -13,7 +13,7 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     string objective;
     [SerializeField] string objectiveString;
     [SerializeField] TextMeshProUGUI objectiveText;
-    [SerializeField] GameObject linkedObjective;
+    [SerializeField] GameObject nextObjective;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,9 +21,9 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
         objectiveText.text = objective;
         isFinished = true;
         gameObject.GetComponent<BoxCollider>().enabled = false;
-        if(linkedObjective != null)
+        if(nextObjective != null)
         {
-            linkedObjective.GetComponent<BoxCollider>().enabled = true;
+            nextObjective.GetComponent<BoxCollider>().enabled = true;
         }
         ObjectiveManager.GetInstance().SetCurrentObjective(objective);
     }
@@ -31,7 +31,7 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     public object CaptureState()
     {
         print($"Saving {objective} and {isFinished}");
-        if(linkedObjective == null)
+        if(nextObjective == null)
         {
             return null;
         }
@@ -59,9 +59,9 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
         print($"Loading {objective}");
         if (isFinished)
         {
-            if (linkedObjective != null)
+            if (nextObjective != null)
             {
-                linkedObjective.GetComponent<BoxCollider>().enabled = true;
+                nextObjective.GetComponent<BoxCollider>().enabled = true;
             }
             objectiveText.text = objective;
             gameObject.GetComponent<BoxCollider>().enabled = false;
