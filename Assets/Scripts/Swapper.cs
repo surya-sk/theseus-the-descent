@@ -6,6 +6,7 @@ using UnityEngine;
 /// </summary>
 public class Swapper : MonoBehaviour
 {
+    [SerializeField] GameObject toSwap;
     [SerializeField] GameObject swapWith;
     [SerializeField] GameObject objectiveTrigger;
 
@@ -13,7 +14,7 @@ public class Swapper : MonoBehaviour
     {
         if(objectiveTrigger.GetComponent<BoxCollider>().enabled)
         {
-            Destroy(gameObject);
+            Destroy(toSwap);
             swapWith.SetActive(true);
         }
     }
