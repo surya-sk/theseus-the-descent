@@ -559,39 +559,6 @@ MonoBehaviour:
   objectiveString: Return to the office
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 0}
---- !u!1 &196770519 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 129532, guid: 94e0036eb54fdb4438e1f4276e4f6abe,
-    type: 3}
-  m_PrefabInstance: {fileID: 78077989}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &196770520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196770519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80917deb685974b45ab7e500e34a7b8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  swapWith: {fileID: 812625186}
-  objectiveTrigger: {fileID: 948714729}
---- !u!65 &196770524
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196770519}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.3033859, y: 0.8580603, z: 1.8345468}
-  m_Center: {x: -0.60027105, y: -0.13112889, z: 0.8662302}
 --- !u!1 &237606683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,12 +1950,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e9ed32f32a4d6c4fa0384a2b1a7806d, type: 3}
---- !u!1 &812625186 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 129532, guid: 94e0036eb54fdb4438e1f4276e4f6abe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1088730271}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &821468632
 GameObject:
   m_ObjectHideFlags: 0
