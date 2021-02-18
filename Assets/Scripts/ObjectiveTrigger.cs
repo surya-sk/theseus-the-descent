@@ -14,11 +14,17 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     [SerializeField] string objectiveString;
     [SerializeField] TextMeshProUGUI objectiveText;
     [SerializeField] GameObject nextObjective;
+    [SerializeField] AudioClip pickupClip;
 
+    /// <summary>
+    /// Sets the objective active, and activates the next one 
+    /// </summary>
+    /// <param name="other"></param>
     private void OnTriggerEnter(Collider other)
     {
         objective = objectiveString;
         objectiveText.text = objective;
+        AudioSource.PlayClipAtPoint(pickupClip, gameObject.transform.position);
         isFinished = true;
         gameObject.GetComponent<BoxCollider>().enabled = false;
         if(nextObjective != null)

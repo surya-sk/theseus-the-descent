@@ -634,6 +634,7 @@ MonoBehaviour:
   objectiveString: Keep going
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 2055989462}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!1 &275677719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,6 +1072,7 @@ MonoBehaviour:
   objectiveString: Walk along the pathway
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1576667619}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!4 &526527736
 Transform:
   m_ObjectHideFlags: 0
@@ -1893,6 +1895,7 @@ MonoBehaviour:
   objectiveString: Follow along the pathway
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1037963308}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!4 &780366522
 Transform:
   m_ObjectHideFlags: 0
@@ -2468,6 +2471,7 @@ MonoBehaviour:
   objectiveString: Find your way back to the office
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 0}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!1 &1063691321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3768,6 +3772,7 @@ MonoBehaviour:
   objectiveString: Continue to follow the pathway
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1715368339}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!1001 &1474084998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3961,6 +3966,7 @@ MonoBehaviour:
   objectiveString: Step outside for the patrol
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 526527732}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!4 &1566669435
 Transform:
   m_ObjectHideFlags: 0
@@ -4055,6 +4061,7 @@ MonoBehaviour:
   objectiveString: Keep following the pathway
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 261944509}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!1 &1628340784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4116,6 +4123,7 @@ MonoBehaviour:
   objectiveString: Read the note on the table
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1566669431}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!114 &1628340788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4269,6 +4277,7 @@ MonoBehaviour:
   objectiveString: Make it out through the woods
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 780366518}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!4 &1661516855
 Transform:
   m_ObjectHideFlags: 0
@@ -4979,6 +4988,7 @@ MonoBehaviour:
   objectiveString: Continue into the woods
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1852697524}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!1001 &1826175662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5108,6 +5118,7 @@ MonoBehaviour:
   objectiveString: Continue along the path
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1661516851}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!4 &1852697528
 Transform:
   m_ObjectHideFlags: 0
@@ -5441,6 +5452,7 @@ MonoBehaviour:
   objectiveString: Continue to the left
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1431457924}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!1 &2068695292
 GameObject:
   m_ObjectHideFlags: 0
