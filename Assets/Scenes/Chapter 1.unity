@@ -1662,6 +1662,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.XSensitivity
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.smooth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.YSensitivity
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.smoothTime
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.clampVerticalRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.lockCursor
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5883315231125161274, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
