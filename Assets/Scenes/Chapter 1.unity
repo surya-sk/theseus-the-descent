@@ -1687,7 +1687,7 @@ PrefabInstance:
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: mouseLook.clampVerticalRotation
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
