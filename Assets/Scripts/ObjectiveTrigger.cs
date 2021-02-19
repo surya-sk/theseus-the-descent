@@ -23,16 +23,19 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     /// <param name="other"></param>
     private void OnTriggerEnter(Collider other)
     {
-        objective = objectiveString;
-        objectiveText.text = objective;
-        AudioSource.PlayClipAtPoint(pickupClip, gameObject.transform.position);
-        isFinished = true;
-        gameObject.GetComponent<BoxCollider>().enabled = false;
-        if(nextObjective != null)
+        if(other.gameObject.tag == "Player")
         {
-            nextObjective.GetComponent<BoxCollider>().enabled = true;
+            objective = objectiveString;
+            objectiveText.text = objective;
+            AudioSource.PlayClipAtPoint(pickupClip, other.gameObject.transform.position);
+            isFinished = true;
+            gameObject.GetComponent<BoxCollider>().enabled = false;
+            if (nextObjective != null)
+            {
+                nextObjective.GetComponent<BoxCollider>().enabled = true;
+            }
+            ObjectiveManager.GetInstance().SetCurrentObjective(objective);
         }
-        ObjectiveManager.GetInstance().SetCurrentObjective(objective);
     }
 
     public object CaptureState()
