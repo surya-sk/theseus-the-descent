@@ -3369,8 +3369,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 6.5915527, y: 1, z: 7.996338}
-  m_Center: {x: 0.008666992, y: 0, z: 1.5050659}
+  m_Size: {x: 11.905579, y: 1.6452637, z: 7.996338}
+  m_Center: {x: 2.66568, y: 0.32263184, z: 1.5050659}
 --- !u!114 &1083443891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3383,7 +3383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveString: End the shift
+  objectiveString: Drive back home
   objectiveText: {fileID: 6549704878010497193}
   nextObjective: {fileID: 1412259734}
   firstObjective: {fileID: 1628340784}
@@ -3878,8 +3878,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.5915527, y: 1, z: 7.996338}
-  m_Center: {x: 0.008666992, y: 0, z: 1.5050659}
+  m_Size: {x: 9.605286, y: 1, z: 10.140137}
+  m_Center: {x: 0.247406, y: 0, z: 1.1901245}
 --- !u!4 &1172454847
 Transform:
   m_ObjectHideFlags: 0
