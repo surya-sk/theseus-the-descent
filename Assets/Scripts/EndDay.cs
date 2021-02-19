@@ -42,6 +42,7 @@ public class EndDay : MonoBehaviour
         Time.timeScale = 1;
         AudioListener.pause = false;
         objectiveText.enabled = true;
+        objectiveText.text = "Go to the office";
         directionalLight.intensity = 1.46f;
         Destroy(gameObject);
     }
