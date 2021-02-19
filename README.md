@@ -15,7 +15,7 @@ The game is free to download for Windows 10 PCs, Xbox One and Xbox Series X via 
 ## Running this project
 To run this project, you need to have Visual Studio 2017 or higher. You need to have following components installed:
 - Game development with Unity
-- .NET desktop developnment 
+- .NET desktop development 
 - Universal Windows Platform development (Optional: only if you want to build the app packages for the Store)
 
 Then, you need to have Unity Hub installed (just Bing it). After installing Unity Hub, follow these steps:
@@ -28,4 +28,4 @@ Then, you need to have Unity Hub installed (just Bing it). After installing Unit
 You're all set!
 
 ## Feedback
-All feedback, especially constructive, is appreciated. To report bugs or request features, create an issue on GitHub or [email me](mailto:surya.sk05@outlook.com) if you don't have a GitHub account. Please be as specific as possible when creating issues and be sure to provide steps to reproduce when reporting bugs. PRs are welcome.  
+All feedback, especially constructive, is appreciated. To report bugs or request features, create an issue on GitHub or [email me](mailto:surya.sk05@outlook.com) if you don't have a GitHub account. Please be as specific as possible when creating issues and be sure to provide steps to reproduce when reporting bugs. If you want to submit a pull request, create a new branch with an appropriate name. Do not merge into the master branch
