@@ -28,4 +28,4 @@ Then, you need to have Unity Hub installed (just Bing it). After installing Unit
 You're all set!
 
 ## Feedback
-All feedback, especially constructive, is appreciated. To report bugs or request features, create an issue on GitHub or [email me](mailto:surya.sk05@outlook.com) if you don't have a GitHub account. Please be as specific as possible when creating issues and be sure to provide steps to reproduce when reporting bugs. If you want to submit a pull request, create a new branch with an appropriate name. Do not merge into the master branch
+All feedback, especially constructive, is appreciated. To report bugs or request features, create an issue on GitHub or [email me](mailto:surya.sk05@outlook.com) if you don't have a GitHub account. Please be as specific as possible when creating issues and be sure to provide steps to reproduce when reporting bugs. If you want to submit a pull request, create a new branch with an appropriate name. Do not merge into the master branch.
