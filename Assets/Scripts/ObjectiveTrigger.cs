@@ -14,6 +14,7 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     [SerializeField] string objectiveString;
     [SerializeField] TextMeshProUGUI objectiveText;
     [SerializeField] GameObject nextObjective;
+    [SerializeField] GameObject firstObjective;
     [SerializeField] AudioClip pickupClip;
 
     /// <summary>
@@ -52,6 +53,10 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
 
     public void RestoreState(object state)
     {
+        if(!objectiveText.text.Equals("Go to the office"))
+        {
+            firstObjective.SetActive(false);
+        }
         string result = (string)state;
         if(result == null)
         {

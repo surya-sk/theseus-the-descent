@@ -19,7 +19,6 @@ public class EndDay : MonoBehaviour
     {
         if(promptCanvas.enabled && !coroutineStarted)
         {
-            print("detectingi nput");
             if (Input.GetMouseButtonDown(1) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
             {
                 coroutineStarted = true;
@@ -42,7 +41,7 @@ public class EndDay : MonoBehaviour
         Time.timeScale = 1;
         AudioListener.pause = false;
         objectiveText.enabled = true;
-        objectiveText.text = "Go to the office";
+        objectiveText.text = "Go back to the office";
         directionalLight.intensity = 1.46f;
         Destroy(gameObject);
     }
