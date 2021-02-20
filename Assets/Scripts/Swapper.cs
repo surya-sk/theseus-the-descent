@@ -9,6 +9,7 @@ public class Swapper : MonoBehaviour, ISaveable
     [SerializeField] GameObject toSwap;
     [SerializeField] GameObject swapWith;
     [SerializeField] GameObject objectiveTrigger;
+    [SerializeField] bool isTemp; 
     bool hasSwapped = false;
 
     public object CaptureState()
@@ -33,10 +34,20 @@ public class Swapper : MonoBehaviour, ISaveable
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if(isTemp)
+        {
+            hasSwapped = false;
+            swapWith.SetActive(false);
+            toSwap.SetActive(true);
+        }
+    }
+
     private void SwapObjects()
     {
         hasSwapped = true;
-        Destroy(toSwap);
+        toSwap.SetActive(false);
         swapWith.SetActive(true);
     }
 }
