@@ -47,10 +47,8 @@ public class EndDay : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        print(activeObjective.GetComponent<BoxCollider>().enabled);
         if(activeObjective.GetComponent<BoxCollider>().enabled)
         {
-            print("youre in");
             objectiveText.enabled = false;
             promptCanvas.enabled = true;
         }
