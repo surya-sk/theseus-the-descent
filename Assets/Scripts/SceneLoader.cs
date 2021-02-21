@@ -17,7 +17,19 @@ public class SceneLoader : MonoBehaviour
 
     public void MainMenu()
     {
+        Time.timeScale = 1;
+        AudioListener.pause = false;
         SceneManager.LoadScene(0);
+    }
+
+    public void Tutorial()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
+
+    public void Chapter1()
+    {
+        SceneManager.LoadSceneAsync(2);
     }
 
     public void QuitGame()
@@ -27,7 +39,7 @@ public class SceneLoader : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadSceneAsync(3);
     }
 
     public string GetSceneName()
