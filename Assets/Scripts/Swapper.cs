@@ -29,7 +29,7 @@ public class Swapper : MonoBehaviour, ISaveable
     {
        if(other.gameObject.tag == "Player")
         {
-            if (objectiveTrigger.GetComponent<BoxCollider>().enabled || gameObject.tag == "Toy")
+            if (objectiveTrigger.GetComponent<BoxCollider>().enabled)
             {
                 SwapObjects();
             }

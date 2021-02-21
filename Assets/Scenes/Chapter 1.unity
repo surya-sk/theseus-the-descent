@@ -722,7 +722,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1135704442}
   swapWith: {fileID: 33900514}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
+--- !u!1 &96294693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 96294694}
+  - component: {fileID: 96294696}
+  - component: {fileID: 96294695}
+  m_Layer: 0
+  m_Name: AudioTrigger (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &96294694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96294693}
+  m_LocalRotation: {x: 0.020067085, y: -0.7638263, z: -0.008376783, w: 0.6450555}
+  m_LocalPosition: {x: 465.5193, y: 3.9254627, z: 693.83154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1916344759}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.75000006, y: -99.65301, z: -2.377}
+--- !u!114 &96294695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96294693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 1900314670}
+  soundName: Tension
+  audioManager: {fileID: 272085616}
+--- !u!65 &96294696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96294693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 143.46095, y: 5.091114, z: 16.224436}
+  m_Center: {x: 36.027573, y: 2.0455687, z: -2.7160883}
 --- !u!1001 &101506479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1017,6 +1077,7 @@ Transform:
   - {fileID: 858022678}
   - {fileID: 1900314671}
   - {fileID: 172563868}
+  - {fileID: 1720078994}
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1210,7 +1271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveString: Escape the area. Find the Stop sign
   objectiveText: {fileID: 6549704878010497193}
-  nextObjective: {fileID: 0}
+  nextObjective: {fileID: 1720078993}
   firstObjective: {fileID: 1628340784}
   pickupClip: {fileID: 8300000, guid: 0084895e0340eb04b8bf6204e306e22b, type: 3}
 --- !u!1 &178031712
@@ -1578,7 +1639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeObjecitve: {fileID: 2073842980}
+  activeObjecitve: {fileID: 1597319017}
   soundName: Bottomless Pool
   audioManager: {fileID: 272085616}
 --- !u!65 &244067432
@@ -2005,6 +2066,11 @@ MonoBehaviour:
     volume: 0.48
     pitch: 1
     source: {fileID: 0}
+  - name: Tension
+    clip: {fileID: 8300000, guid: ae2797748bd8fc14896aa096ffb1bfd5, type: 3}
+    volume: 0.48
+    pitch: 1
+    source: {fileID: 0}
 --- !u!4 &272085617
 Transform:
   m_ObjectHideFlags: 0
@@ -2259,7 +2325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 816905698}
   swapWith: {fileID: 1367070498}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
 --- !u!65 &364415922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2663,7 +2729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1141122115}
   swapWith: {fileID: 827873183}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
 --- !u!1 &487209097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3643,7 +3709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1203296076}
   swapWith: {fileID: 1029472222}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
 --- !u!65 &690634816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4000,7 +4066,7 @@ PrefabInstance:
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: mouseLook.XSensitivity
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
@@ -4010,7 +4076,7 @@ PrefabInstance:
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: mouseLook.YSensitivity
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
@@ -9249,7 +9315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1638755001
 Transform:
   m_ObjectHideFlags: 0
@@ -9425,7 +9491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 846261792}
   swapWith: {fileID: 249184539}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
 --- !u!1 &1661516851
 GameObject:
   m_ObjectHideFlags: 0
@@ -10351,6 +10417,82 @@ MonoBehaviour:
   nextObjective: {fileID: 1852697524}
   firstObjective: {fileID: 1628340784}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+--- !u!1 &1720078993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1720078994}
+  - component: {fileID: 1720078997}
+  - component: {fileID: 1720078996}
+  - component: {fileID: 1720078995}
+  m_Layer: 0
+  m_Name: Final Objective
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1720078994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720078993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -208.8, y: -1.3570411, z: -583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 145814496}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1720078995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720078993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e2aa1dff0884740bc9c19ce2575487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 11143209-92c0-4bd1-b5d9-0cf8c21742b7
+--- !u!65 &1720078996
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720078993}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 3.5844727, y: 13.9249935, z: 103.377754}
+  m_Center: {x: 0.17929077, y: 6.4624968, z: -10.348667}
+--- !u!114 &1720078997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720078993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveString: Escape the area. Find the Stop sign
+  objectiveText: {fileID: 6549704878010497193}
+  nextObjective: {fileID: 0}
+  firstObjective: {fileID: 1628340784}
+  pickupClip: {fileID: 8300000, guid: 0084895e0340eb04b8bf6204e306e22b, type: 3}
 --- !u!1 &1744150041
 GameObject:
   m_ObjectHideFlags: 0
@@ -10581,7 +10723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 572186113}
   swapWith: {fileID: 1236277682}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
 --- !u!1 &1798441471
 GameObject:
   m_ObjectHideFlags: 0
@@ -11186,6 +11328,7 @@ Transform:
   - {fileID: 883792027}
   - {fileID: 244067430}
   - {fileID: 25601499}
+  - {fileID: 96294694}
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11455,8 +11598,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 192.0437, y: 2.4615746, z: 155.5315}
-  m_Center: {x: -72.90234, y: 0.7307873, z: -63.586304}
+  m_Size: {x: 87.231384, y: 2.4615746, z: 19.363525}
+  m_Center: {x: -125.3085, y: 0.7307873, z: -131.67029}
 --- !u!114 &2000307123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11470,7 +11613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 1638755000}
-  activeObjective: {fileID: 172563867}
+  activeObjective: {fileID: 1720078993}
 --- !u!1 &2003804225
 GameObject:
   m_ObjectHideFlags: 0
@@ -11677,7 +11820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1151643880}
   swapWith: {fileID: 1638321132}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
 --- !u!4 &2047280462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 456816, guid: dadabfb7666c71040b774315c71951ea,
@@ -12497,7 +12640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1596103170}
   swapWith: {fileID: 298379809}
-  objectiveTrigger: {fileID: 172563867}
+  objectiveTrigger: {fileID: 1720078993}
 --- !u!65 &2133264678
 BoxCollider:
   m_ObjectHideFlags: 0
