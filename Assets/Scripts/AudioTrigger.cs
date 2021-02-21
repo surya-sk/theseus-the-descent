@@ -6,6 +6,7 @@ public class AudioTrigger : MonoBehaviour
 {
     [SerializeField] GameObject activeObjecitve;
     [SerializeField] string soundName;
+    [SerializeField] AudioManager audioManager;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,8 +14,7 @@ public class AudioTrigger : MonoBehaviour
         {
             if(activeObjecitve.GetComponent<BoxCollider>().enabled)
             {
-                print("Enabled");
-                FindObjectOfType<AudioManager>().Play(soundName);
+                audioManager.Play(soundName);
             }
         }
     }

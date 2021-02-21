@@ -1867,7 +1867,12 @@ MonoBehaviour:
   sounds:
   - name: No Man's Land
     clip: {fileID: 8300000, guid: 4f7579e422455624cad0ea1466a76695, type: 3}
-    volume: 0.638
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+  - name: Seahose
+    clip: {fileID: 8300000, guid: 516cab80219a8734689053c7db9ed0ae, type: 3}
+    volume: 0.48
     pitch: 1
     source: {fileID: 0}
 --- !u!4 &272085617
@@ -5016,6 +5021,66 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &883792026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883792027}
+  - component: {fileID: 883792029}
+  - component: {fileID: 883792028}
+  m_Layer: 0
+  m_Name: AudioTrigger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &883792027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883792026}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 393.2, y: 1.89378, z: 569.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1916344759}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &883792028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883792026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 2117705646}
+  soundName: Seahose
+  audioManager: {fileID: 272085616}
+--- !u!65 &883792029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883792026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 55.89798, y: 1, z: 7.685791}
+  m_Center: {x: 6.346176, y: 0, z: 0.6546631}
 --- !u!1001 &885515486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6591,6 +6656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeObjecitve: {fileID: 261944509}
   soundName: No Man's Land
+  audioManager: {fileID: 272085616}
 --- !u!65 &1106760537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10982,6 +11048,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1106760535}
+  - {fileID: 883792027}
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
