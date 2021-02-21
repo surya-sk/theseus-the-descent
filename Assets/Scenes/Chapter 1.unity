@@ -1787,13 +1787,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244067429}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 414.34732, y: 1.89378, z: 739.91}
+  m_LocalRotation: {x: -0, y: -0.6371491, z: -0, w: 0.77074057}
+  m_LocalPosition: {x: 416.33585, y: 0.77, z: 275.9062}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1916344759}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -79.159004, z: 0}
 --- !u!114 &244067431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeObjecitve: {fileID: 1597319017}
+  activeObjecitve: {fileID: 858022677}
   soundName: Bottomless Pool
   audioManager: {fileID: 272085616}
 --- !u!65 &244067432
@@ -1820,8 +1820,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 28.753052, y: 1, z: 3.6882324}
-  m_Center: {x: 4.0751953, y: 0, z: -1.3441162}
+  m_Size: {x: 99.55394, y: 1, z: 3.6882324}
+  m_Center: {x: -5.6068625, y: 0, z: -1.3441191}
 --- !u!1 &249184539 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5023599894669280519, guid: f1c602a252e5e7f48b7cd07c4e321029,
