@@ -662,7 +662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1135704442}
   swapWith: {fileID: 33900514}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!1001 &101506479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2142,7 +2142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 816905698}
   swapWith: {fileID: 1367070498}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!65 &364415922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2546,7 +2546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1141122115}
   swapWith: {fileID: 827873183}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!1 &487209097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3631,7 +3631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1203296076}
   swapWith: {fileID: 1029472222}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!65 &690634816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9556,7 +9556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 846261792}
   swapWith: {fileID: 249184539}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!1 &1661516851
 GameObject:
   m_ObjectHideFlags: 0
@@ -10712,7 +10712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 572186113}
   swapWith: {fileID: 1236277682}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!1 &1798441471
 GameObject:
   m_ObjectHideFlags: 0
@@ -11634,7 +11634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 1638755000}
-  activeObjective: {fileID: 1900314670}
+  activeObjective: {fileID: 172563867}
 --- !u!1 &2003804225
 GameObject:
   m_ObjectHideFlags: 0
@@ -11841,7 +11841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1151643880}
   swapWith: {fileID: 1638321132}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!4 &2047280462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 456816, guid: dadabfb7666c71040b774315c71951ea,
@@ -12728,7 +12728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toSwap: {fileID: 1596103170}
   swapWith: {fileID: 298379809}
-  objectiveTrigger: {fileID: 1900314670}
+  objectiveTrigger: {fileID: 172563867}
 --- !u!65 &2133264678
 BoxCollider:
   m_ObjectHideFlags: 0
