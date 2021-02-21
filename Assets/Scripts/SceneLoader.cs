@@ -27,7 +27,7 @@ public class SceneLoader : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public string GetSceneName()
