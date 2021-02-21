@@ -4000,7 +4000,7 @@ PrefabInstance:
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: mouseLook.XSensitivity
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
@@ -4010,7 +4010,7 @@ PrefabInstance:
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: mouseLook.YSensitivity
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
