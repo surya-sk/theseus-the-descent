@@ -3640,7 +3640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 525658675, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
       propertyPath: m_Volume
-      value: 0.228
+      value: 0.081
       objectReference: {fileID: 0}
     - target: {fileID: 165302407884244073, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
@@ -3655,6 +3655,11 @@ PrefabInstance:
     - target: {fileID: 165302410556836221, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746819432071836850, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4147474626959232750, guid: 29e7fdda22a78224c92bae6bc85e0023,
