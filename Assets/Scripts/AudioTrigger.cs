@@ -13,6 +13,7 @@ public class AudioTrigger : MonoBehaviour
         {
             if(activeObjecitve.GetComponent<BoxCollider>().enabled)
             {
+                print("Enabled");
                 FindObjectOfType<AudioManager>().Play(soundName);
             }
         }
