@@ -199,6 +199,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1c602a252e5e7f48b7cd07c4e321029, type: 3}
+--- !u!1 &25601498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25601499}
+  - component: {fileID: 25601501}
+  - component: {fileID: 25601500}
+  m_Layer: 0
+  m_Name: AudioTrigger (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &25601499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25601498}
+  m_LocalRotation: {x: -0, y: -0.69592273, z: -0, w: 0.71811664}
+  m_LocalPosition: {x: 402.1038, y: 1.89378, z: 734.5349}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1916344759}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -88.202, z: 0}
+--- !u!114 &25601500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25601498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 1458918465}
+  soundName: Hellbound
+  audioManager: {fileID: 272085616}
+--- !u!65 &25601501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25601498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 40.91404, y: 1, z: 3.6882324}
+  m_Center: {x: 10.155699, y: 0, z: -1.344116}
 --- !u!1 &33900514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5023599894669280519, guid: f1c602a252e5e7f48b7cd07c4e321029,
@@ -1474,6 +1534,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manageVisibility: 1
+--- !u!1 &244067429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 244067430}
+  - component: {fileID: 244067432}
+  - component: {fileID: 244067431}
+  m_Layer: 0
+  m_Name: AudioTrigger (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &244067430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244067429}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 414.34732, y: 1.89378, z: 739.91}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1916344759}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &244067431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244067429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 2073842980}
+  soundName: Bottomless Pool
+  audioManager: {fileID: 272085616}
+--- !u!65 &244067432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244067429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 28.753052, y: 1, z: 3.6882324}
+  m_Center: {x: 4.0751953, y: 0, z: -1.3441162}
 --- !u!1 &249184539 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5023599894669280519, guid: f1c602a252e5e7f48b7cd07c4e321029,
@@ -1872,6 +1992,16 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Seahose
     clip: {fileID: 8300000, guid: 516cab80219a8734689053c7db9ed0ae, type: 3}
+    volume: 0.48
+    pitch: 1
+    source: {fileID: 0}
+  - name: Bottomless Pool
+    clip: {fileID: 8300000, guid: 646876e13a948b847b66bfacf1a8a468, type: 3}
+    volume: 0.48
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hellbound
+    clip: {fileID: 8300000, guid: fbfc1e86fe754d746905993b1959373a, type: 3}
     volume: 0.48
     pitch: 1
     source: {fileID: 0}
@@ -11054,6 +11184,8 @@ Transform:
   m_Children:
   - {fileID: 1106760535}
   - {fileID: 883792027}
+  - {fileID: 244067430}
+  - {fileID: 25601499}
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
