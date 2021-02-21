@@ -2049,28 +2049,33 @@ MonoBehaviour:
   sounds:
   - name: No Man's Land
     clip: {fileID: 8300000, guid: 4f7579e422455624cad0ea1466a76695, type: 3}
-    volume: 0.445
+    volume: 0.281
     pitch: 1
+    isLoop: 0
     source: {fileID: 0}
   - name: Seahose
     clip: {fileID: 8300000, guid: 516cab80219a8734689053c7db9ed0ae, type: 3}
-    volume: 0.48
+    volume: 0.31
     pitch: 1
+    isLoop: 0
     source: {fileID: 0}
   - name: Bottomless Pool
     clip: {fileID: 8300000, guid: 646876e13a948b847b66bfacf1a8a468, type: 3}
-    volume: 0.48
+    volume: 0.193
     pitch: 1
+    isLoop: 0
     source: {fileID: 0}
   - name: Hellbound
     clip: {fileID: 8300000, guid: fbfc1e86fe754d746905993b1959373a, type: 3}
-    volume: 0.48
+    volume: 0.293
     pitch: 1
+    isLoop: 0
     source: {fileID: 0}
   - name: Tension
     clip: {fileID: 8300000, guid: ae2797748bd8fc14896aa096ffb1bfd5, type: 3}
-    volume: 0.48
+    volume: 0.223
     pitch: 1
+    isLoop: 1
     source: {fileID: 0}
 --- !u!4 &272085617
 Transform:
