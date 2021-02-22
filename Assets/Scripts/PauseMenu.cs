@@ -25,33 +25,6 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Show pause menu when pause button is clicked
-    /// </summary>
-    //private void PauseOverlay()
-    //{
-    //    if(Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Esc"))
-    //    {
-    //        if(pauseCanvas.enabled == false)
-    //        {
-    //            pauseCanvas.enabled = true;
-    //            Time.timeScale = 0;
-    //            FindObjectOfType<SwitchWeapon>().enabled = false;
-    //            Cursor.visible = false;
-    //            AudioListener.pause = true;
-    //        }
-    //        else
-    //        {
-    //            pauseCanvas.enabled = false;
-    //            Time.timeScale = 1;
-    //            FindObjectOfType<SwitchWeapon>().enabled = true;
-    //            Cursor.lockState = CursorLockMode.None;
-    //            Cursor.visible = false;
-    //            AudioListener.pause = false;
-    //        }
-    //    }
-    //}
-
     void Pause()
     {
         otherUI.SetActive(false);
