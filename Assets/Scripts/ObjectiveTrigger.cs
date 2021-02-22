@@ -14,18 +14,28 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
     [SerializeField] string objectiveString;
     [SerializeField] TextMeshProUGUI objectiveText;
     [SerializeField] GameObject nextObjective;
+    [SerializeField] GameObject firstObjective;
+    [SerializeField] AudioClip pickupClip;
 
+    /// <summary>
+    /// Sets the objective active, and activates the next one 
+    /// </summary>
+    /// <param name="other"></param>
     private void OnTriggerEnter(Collider other)
     {
-        objective = objectiveString;
-        objectiveText.text = objective;
-        isFinished = true;
-        gameObject.GetComponent<BoxCollider>().enabled = false;
-        if(nextObjective != null)
+        if(other.gameObject.tag == "Player")
         {
-            nextObjective.GetComponent<BoxCollider>().enabled = true;
+            objective = objectiveString;
+            objectiveText.text = objective;
+            AudioSource.PlayClipAtPoint(pickupClip, other.gameObject.transform.position);
+            isFinished = true;
+            gameObject.GetComponent<BoxCollider>().enabled = false;
+            if (nextObjective != null)
+            {
+                nextObjective.GetComponent<BoxCollider>().enabled = true;
+            }
+            ObjectiveManager.GetInstance().SetCurrentObjective(objective);
         }
-        ObjectiveManager.GetInstance().SetCurrentObjective(objective);
     }
 
     public object CaptureState()
@@ -46,6 +56,10 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
 
     public void RestoreState(object state)
     {
+        if(!objectiveText.text.Equals("Go to the office"))
+        {
+            firstObjective.SetActive(false);
+        }
         string result = (string)state;
         if(result == null)
         {

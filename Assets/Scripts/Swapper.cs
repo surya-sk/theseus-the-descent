@@ -27,16 +27,19 @@ public class Swapper : MonoBehaviour, ISaveable
 
     private void OnTriggerEnter(Collider other)
     {
-        if(objectiveTrigger.GetComponent<BoxCollider>().enabled)
+       if(other.gameObject.tag == "Player")
         {
-            SwapObjects();
+            if (objectiveTrigger.GetComponent<BoxCollider>().enabled)
+            {
+                SwapObjects();
+            }
         }
     }
 
     private void SwapObjects()
     {
         hasSwapped = true;
-        Destroy(toSwap);
+        toSwap.SetActive(false);
         swapWith.SetActive(true);
     }
 }

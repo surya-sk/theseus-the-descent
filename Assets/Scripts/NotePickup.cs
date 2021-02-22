@@ -8,6 +8,7 @@ public class NotePickup : MonoBehaviour
     [SerializeField] Canvas promptCanvas;
     [SerializeField] TextMeshProUGUI promptText;
     [SerializeField] Canvas noteCanvas;
+    [SerializeField] TextMeshProUGUI objectiveText;
     bool isNearNote;
     bool isReadingNote;
 
@@ -41,6 +42,7 @@ public class NotePickup : MonoBehaviour
                 noteCanvas.enabled = false;
                 Time.timeScale = 1;
                 promptText.text = "Press LT or right click to interact";
+                objectiveText.enabled = true;
             }
         }
     }
@@ -51,6 +53,7 @@ public class NotePickup : MonoBehaviour
         {
             promptCanvas.enabled = true;
             isNearNote = true;
+            objectiveText.enabled = false;
         }
     }
 
