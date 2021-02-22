@@ -14,6 +14,7 @@ public class EndDay : MonoBehaviour
     [SerializeField] TextMeshProUGUI objectiveText;
     bool coroutineStarted = false;
     [SerializeField] Light directionalLight;
+    [SerializeField] AudioManager audioManager;
 
     private void Update()
     {
@@ -21,6 +22,7 @@ public class EndDay : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(1) || Mathf.Round(Input.GetAxisRaw("Fire2")) < 0)
             {
+                audioManager.StopAll();
                 coroutineStarted = true;
                 StartCoroutine(StartNextDay());
             }

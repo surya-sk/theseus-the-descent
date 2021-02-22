@@ -2360,13 +2360,13 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4f7579e422455624cad0ea1466a76695, type: 3}
     volume: 0.281
     pitch: 1
-    isLoop: 0
+    isLoop: 1
     source: {fileID: 0}
   - name: Seahose
     clip: {fileID: 8300000, guid: 516cab80219a8734689053c7db9ed0ae, type: 3}
     volume: 0.31
     pitch: 1
-    isLoop: 0
+    isLoop: 1
     source: {fileID: 0}
   - name: Bottomless Pool
     clip: {fileID: 8300000, guid: 646876e13a948b847b66bfacf1a8a468, type: 3}
@@ -10579,6 +10579,7 @@ MonoBehaviour:
   activeObjective: {fileID: 1412259734}
   objectiveText: {fileID: 6549704878010497193}
   directionalLight: {fileID: 870367630}
+  audioManager: {fileID: 272085616}
 --- !u!4 &1190881998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4808575116110212, guid: d323fc18d7f7cbb4d971d8250d723165,
@@ -12855,6 +12856,7 @@ MonoBehaviour:
   activeObjective: {fileID: 369772935}
   objectiveText: {fileID: 6549704878010497193}
   directionalLight: {fileID: 870367630}
+  audioManager: {fileID: 272085616}
 --- !u!65 &1482616678
 BoxCollider:
   m_ObjectHideFlags: 0
