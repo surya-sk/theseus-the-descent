@@ -383,7 +383,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6, y: -43}
+  m_AnchoredPosition: {x: -1.6, y: -26}
   m_SizeDelta: {x: 203.3, y: 67.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &219331644
@@ -1326,7 +1326,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fdd00c9cfba2dab4aba4c027adbf94a4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b76719e37b6c708478f3fcb6f75c090c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1802,9 +1802,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Welcome to Theseus: The Descent. Chapter 1 is now available to play. Thank
-    you for your patience! I am new to game development and would love to hear your
-    feedback on my first attempt at storytelling. Leave a review on the Microsoft
-    Store.'
+    you for your patience! I would love to hear your feedback on my first attempt
+    at storytelling. Feel free to leave a review on the Microsoft Store.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3749e3631f1922543b68f3e10ea10bc6, type: 2}
   m_sharedMaterial: {fileID: 2906248110119841641, guid: 3749e3631f1922543b68f3e10ea10bc6,
@@ -1850,7 +1849,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 223
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1874,12 +1873,12 @@ MonoBehaviour:
   m_margin: {x: -471.74353, y: 0, z: 0, w: -92.37782}
   m_textInfo:
     textComponent: {fileID: 1102083988}
-    characterCount: 239
+    characterCount: 221
     spriteCount: 0
-    spaceCount: 42
-    wordCount: 43
+    spaceCount: 39
+    wordCount: 40
     linkCount: 0
-    lineCount: 5
+    lineCount: 4
     pageCount: 1
     materialCount: 2
   m_isUsingLegacyAnimationComponent: 0

@@ -561,12 +561,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gloom, No Man''s Land, Seahose, Hellbound and Bottomless Pool composed
-    by Drkblu.
+  m_text: 'Weird Bells, No Man''s Land, Seahose, Hellbound and Bottomless Pool and
+    Gloom composed by Drkblu.
 
     Hunted composed by Radical Face from the record Missing Film (2018).
 
-    To check out these songs and more by Drkblu, visit his Soundcloud page: '
+    To check out these songs and more by Drkblu, visit his Bandcamp page at drkblu.bandcamp.com'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3749e3631f1922543b68f3e10ea10bc6, type: 2}
   m_sharedMaterial: {fileID: 2906248110119841641, guid: 3749e3631f1922543b68f3e10ea10bc6,
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 150
+  m_firstOverflowCharacterIndex: 166
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -636,14 +636,14 @@ MonoBehaviour:
   m_margin: {x: -956.39954, y: 0, z: 0, w: -45.519318}
   m_textInfo:
     textComponent: {fileID: 521869424}
-    characterCount: 222
+    characterCount: 257
     spriteCount: 0
-    spaceCount: 36
-    wordCount: 36
+    spaceCount: 40
+    wordCount: 43
     linkCount: 0
     lineCount: 3
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
