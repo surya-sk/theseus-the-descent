@@ -42,6 +42,10 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadSceneAsync(3);
     }
 
+    public void Credits()
+    {
+        SceneManager.LoadScene(5);
+    }
     public string GetSceneName()
     {
         return SceneManager.GetActiveScene().name;
