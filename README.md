@@ -5,6 +5,7 @@ There are currently three gun types and three ammo types in the game. Flashlight
 
 ## Installation
 The game is free to download for Windows 10 PCs, Xbox One and Xbox Series X via the Microsoft Store, made possible by Microsoft's Universal Windows Platform framework.
+
 If you'd like an exe file, check the Releases section. Keep in mind that the non-Microsoft Store version is LTS and isn't regularly updated. And you will lose automatic updates, so it is recommended to get it from the Store.
 
 <a href='https://www.microsoft.com/en-us/p/theseus-the-descent/9nwzzffbw70t?activetab=pivot:overviewtab'><img src='https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png' alt='Store Link' height="50px"/></a>
