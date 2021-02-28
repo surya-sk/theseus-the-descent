@@ -15476,13 +15476,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552114403}
-  m_LocalRotation: {x: 0.020067085, y: -0.7638263, z: -0.008376783, w: 0.6450555}
-  m_LocalPosition: {x: 507.8, y: 4.1, z: 686.6}
+  m_LocalRotation: {x: 0.020661104, y: -0.71100193, z: -0.0067806495, w: 0.70285386}
+  m_LocalPosition: {x: 502.644, y: 8.944635, z: 559.359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1916344759}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0.75000006, y: -99.65301, z: -2.377}
+  m_LocalEulerAnglesHint: {x: 1.1120001, y: -90.68201, z: -2.23}
 --- !u!114 &1552114405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15495,7 +15495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeObjecitve: {fileID: 1900314670}
+  activeObjecitve: {fileID: 523170030}
   soundName: Whisper
   audioManager: {fileID: 272085616}
 --- !u!65 &1552114406
@@ -15509,8 +15509,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 143.46095, y: 5.091114, z: 16.224436}
-  m_Center: {x: 36.027573, y: 2.0455687, z: -2.7160883}
+  m_Size: {x: 217.64136, y: 5.091114, z: 35.859276}
+  m_Center: {x: -1.0627214, y: 2.0455685, z: -10.059612}
 --- !u!4 &1558688445 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
