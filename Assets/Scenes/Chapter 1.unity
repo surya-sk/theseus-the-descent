@@ -2586,8 +2586,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Whisper
     clip: {fileID: 8300000, guid: 4a3a0f0f5d5a5cd4db6a6a75f1497bb7, type: 3}
-    volume: 0.1
-    pitch: 1
+    volume: 0.071
+    pitch: 0.66
     isLoop: 0
     source: {fileID: 0}
 --- !u!4 &272085617
