@@ -17,6 +17,9 @@ public class EnemyAI : MonoBehaviour, ISaveable
     [SerializeField] AudioSource attackSFX;
     [SerializeField] AudioSource breathSFX;
     [SerializeField] AudioSource growlSFX;
+    [SerializeField] GameObject waypoint;
+    Vector3 destination, endPoint;
+    bool pathComplete = false;
     NavMeshAgent navMeshAgent;
     float distanceToTarget;
     bool hasDetected = false;
@@ -32,11 +35,14 @@ public class EnemyAI : MonoBehaviour, ISaveable
     void Start()
     {
         target = FindObjectOfType<PlayerHealth>().transform;
+        endPoint = waypoint.transform.position;
+        destination = endPoint;
         enemyHealth = GetComponent<EnemyHealth>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         initialPosition = gameObject.transform.position;
         animator = GetComponent<Animator>();
         //navMeshAgent.stoppingDistance = 3.5f;
+        StartCoroutine(Patrol());
     }
 
     // Update is called once per frame
@@ -47,7 +53,13 @@ public class EnemyAI : MonoBehaviour, ISaveable
             enabled = false;
             navMeshAgent.enabled = false;
         }
-        DecideAction();
+        //DecideAction();
+        distanceToTarget = Vector3.Distance(target.position, transform.position);
+        if (distanceToTarget <= chaseRadius || hasBeenHit)
+        {
+            StopAllCoroutines();
+            Engage();
+        }
     }
 
     /// <summary>
@@ -55,7 +67,6 @@ public class EnemyAI : MonoBehaviour, ISaveable
     /// </summary>
     private void DecideAction()
     {
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
         //print(timeSinceLastSawPlayer);
         if (hasDetected)
         {
@@ -79,6 +90,28 @@ public class EnemyAI : MonoBehaviour, ISaveable
         }
     }
 
+    IEnumerator Patrol()
+    {
+        while (!pathComplete)
+        {
+            Move(destination);
+            if (Vector3.Distance(gameObject.transform.position, destination) < 2 && !enemyHealth.EnemyIsDead())
+            {
+                if (destination != endPoint)
+                {
+                    destination = endPoint;
+                }
+                else
+                {
+                    destination = initialPosition;
+                }
+                animator.Rebind();
+                animator.SetTrigger("Idle");
+                yield return new WaitForSeconds(3);
+            }
+            yield return new WaitForSeconds(0);
+        }
+    }
     /// <summary>
     /// Faces towards the target when provoked 
     /// </summary>
