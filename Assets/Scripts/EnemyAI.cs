@@ -9,7 +9,7 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour, ISaveable
 {
 
-    [SerializeField]Transform target;
+    Transform target;
     [SerializeField] float chaseRadius = 10f;
     [SerializeField] float turnSpeed = 5f;
    // [SerializeField] AudioSource walkSound;
@@ -42,7 +42,8 @@ public class EnemyAI : MonoBehaviour, ISaveable
         initialPosition = gameObject.transform.position;
         animator = GetComponent<Animator>();
         //navMeshAgent.stoppingDistance = 3.5f;
-        StartCoroutine(Patrol());
+        if(waypoint != null)
+            StartCoroutine(Patrol());
     }
 
     // Update is called once per frame
@@ -62,33 +63,33 @@ public class EnemyAI : MonoBehaviour, ISaveable
         }
     }
 
-    /// <summary>
-    /// Decide what to do with player at each frame
-    /// </summary>
-    private void DecideAction()
-    {
-        //print(timeSinceLastSawPlayer);
-        if (hasDetected)
-        {
-            Engage();
-        }
-        if (distanceToTarget <= chaseRadius || hasBeenHit)
-        {
-            hasDetected = true;
-            if(timeSinceLastSawPlayer > 0.13)
-                hasBeenHit = false;
-        }
-        else if (distanceToTarget > chaseRadius && !hasBeenHit && timeSinceLastSawPlayer > 0.13)
-        {
-            hasDetected = false;
-            navMeshAgent.SetDestination(initialPosition);
-            if (Vector3.Distance(gameObject.transform.position, initialPosition) < 3 && !enemyHealth.EnemyIsDead())
-            {
-                animator.SetTrigger("Idle");
-            }
+    ///// <summary>
+    ///// Decide what to do with player at each frame
+    ///// </summary>
+    //private void DecideAction()
+    //{
+    //    //print(timeSinceLastSawPlayer);
+    //    if (hasDetected)
+    //    {
+    //        Engage();
+    //    }
+    //    if (distanceToTarget <= chaseRadius || hasBeenHit)
+    //    {
+    //        hasDetected = true;
+    //        if(timeSinceLastSawPlayer > 0.13)
+    //            hasBeenHit = false;
+    //    }
+    //    else if (distanceToTarget > chaseRadius && !hasBeenHit && timeSinceLastSawPlayer > 0.13)
+    //    {
+    //        hasDetected = false;
+    //        navMeshAgent.SetDestination(initialPosition);
+    //        if (Vector3.Distance(gameObject.transform.position, initialPosition) < 3 && !enemyHealth.EnemyIsDead())
+    //        {
+    //            animator.SetTrigger("Idle");
+    //        }
             
-        }
-    }
+    //    }
+    //}
 
     IEnumerator Patrol()
     {
