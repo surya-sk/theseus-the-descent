@@ -2158,6 +2158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280520, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 200959904}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2978,6 +2983,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280520, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 1110186947}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3757,6 +3767,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280520, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 97061918}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4239,6 +4254,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280520, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 331902998}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7901,7 +7921,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-81166
+  m_Name: pb_Mesh-7544
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8474,6 +8494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280520, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 2081916721}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9215,6 +9240,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280520, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 921618514}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10595,6 +10625,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280520, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 1417725652}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_LocalPosition.x
