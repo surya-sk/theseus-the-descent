@@ -179,6 +179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3421766160626652370}
     m_Modifications:
+    - target: {fileID: 1202727932, guid: 5861d57c43af3c64e90be06ee72ff8cd, type: 3}
+      propertyPath: pickupClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 49ea1492725956e4195686f4ef2d6b0c, type: 3}
     - target: {fileID: 4183508208771639296, guid: 5861d57c43af3c64e90be06ee72ff8cd,
         type: 3}
       propertyPath: m_LocalPosition.x
