@@ -9,10 +9,10 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour, ISaveable
 {
 
-    Transform target;
+    [SerializeField] Transform target;
     [SerializeField] float chaseRadius = 10f;
     [SerializeField] float turnSpeed = 5f;
-   // [SerializeField] AudioSource walkSound;
+    // [SerializeField] AudioSource walkSound;
     [SerializeField] AudioSource runSound;
     [SerializeField] AudioSource attackSFX;
     [SerializeField] AudioSource breathSFX;
@@ -35,15 +35,17 @@ public class EnemyAI : MonoBehaviour, ISaveable
     void Start()
     {
         target = FindObjectOfType<PlayerHealth>().transform;
-        endPoint = waypoint.transform.position;
-        destination = endPoint;
         enemyHealth = GetComponent<EnemyHealth>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         initialPosition = gameObject.transform.position;
         animator = GetComponent<Animator>();
         //navMeshAgent.stoppingDistance = 3.5f;
         if(waypoint != null)
+        {
+            endPoint = waypoint.transform.position;
+            destination = endPoint;
             StartCoroutine(Patrol());
+        }
     }
 
     // Update is called once per frame
@@ -63,11 +65,12 @@ public class EnemyAI : MonoBehaviour, ISaveable
         }
     }
 
-    ///// <summary>
-    ///// Decide what to do with player at each frame
-    ///// </summary>
+    /// <summary>
+    /// Decide what to do with player at each frame
+    /// </summary>
     //private void DecideAction()
     //{
+    //    distanceToTarget = Vector3.Distance(target.position, transform.position);
     //    //print(timeSinceLastSawPlayer);
     //    if (hasDetected)
     //    {
@@ -76,7 +79,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     //    if (distanceToTarget <= chaseRadius || hasBeenHit)
     //    {
     //        hasDetected = true;
-    //        if(timeSinceLastSawPlayer > 0.13)
+    //        if (timeSinceLastSawPlayer > 0.13)
     //            hasBeenHit = false;
     //    }
     //    else if (distanceToTarget > chaseRadius && !hasBeenHit && timeSinceLastSawPlayer > 0.13)
@@ -87,7 +90,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     //        {
     //            animator.SetTrigger("Idle");
     //        }
-            
+
     //    }
     //}
 
@@ -113,6 +116,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
             yield return new WaitForSeconds(0);
         }
     }
+
     /// <summary>
     /// Faces towards the target when provoked 
     /// </summary>
@@ -157,7 +161,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     private void StartAttack()
     {
         animator.SetBool("Attack", true);
-        if(attackSFX.isPlaying == false && FindObjectOfType<PlayerHealth>().PlayerIsDead() == false)
+        if (attackSFX.isPlaying == false && FindObjectOfType<PlayerHealth>().PlayerIsDead() == false)
         {
             attackSFX.Play();
         }
@@ -179,7 +183,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
             StartAttack();
         }
         timeSinceLastSawPlayer += Time.deltaTime;
-    
+
     }
 
     public void OnBeingHit()
@@ -187,19 +191,19 @@ public class EnemyAI : MonoBehaviour, ISaveable
         hasBeenHit = true;
     }
 
-   /* Turned out to be impractical. Might revisit
-    * private void LoopWaypoints()
-    {
-        Vector3 nextPosition = gameObject.transform.position;
-        if(waypoint!= null)
-        {
-            if(Vector3.Distance(gameObject.transform.position, waypoint.GetPosition(currWaypoint)) < 1f)
-            {
-                currWaypoint = waypoint.GetNextIndex(currWaypoint);
-            }
-        }
-        Move(nextPosition);
-    } */
+    /* Turned out to be impractical. Might revisit
+     * private void LoopWaypoints()
+     {
+         Vector3 nextPosition = gameObject.transform.position;
+         if(waypoint!= null)
+         {
+             if(Vector3.Distance(gameObject.transform.position, waypoint.GetPosition(currWaypoint)) < 1f)
+             {
+                 currWaypoint = waypoint.GetNextIndex(currWaypoint);
+             }
+         }
+         Move(nextPosition);
+     } */
 
     /// <summary>
     /// Purely for visual feedback during development. No impact on actual game
