@@ -176,7 +176,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
         FaceTarget();
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
-            navMeshAgent.speed = 3.5f;
+            navMeshAgent.speed = 4.5f;
             StartChase();
         }
         else if (distanceToTarget < navMeshAgent.stoppingDistance)
