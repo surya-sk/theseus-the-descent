@@ -16,7 +16,6 @@ MonoBehaviour:
   angleDecay: 1
   minAngle: 40
   clip: {fileID: 8300000, guid: 8f5d976c8de8dc543bd637f2c6dea7b8, type: 3}
-  canvas: {fileID: 0}
 --- !u!1 &7674773878544575201
 GameObject:
   m_ObjectHideFlags: 0
@@ -37,6 +36,7 @@ GameObject:
   - component: {fileID: 1676399995}
   - component: {fileID: 2746819432071836850}
   - component: {fileID: -5883315231125161274}
+  - component: {fileID: 1987035469369645432}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -204,9 +204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cebdde002c290d40aafd4b618ef3505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverScreen: {fileID: 0}
-  enemyCountText: {fileID: 0}
-  winScreen: {fileID: 0}
 --- !u!82 &1676399996
 AudioSource:
   m_ObjectHideFlags: 0
@@ -523,6 +520,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueId: player
+--- !u!114 &1987035469369645432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7674773878544575201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da00508f9277419449acb3005d2bd2cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7674773878544575203
 GameObject:
   m_ObjectHideFlags: 0
