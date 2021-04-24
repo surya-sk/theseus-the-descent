@@ -2522,31 +2522,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: No Man's Land
-    clip: {fileID: 8300000, guid: 4771594e801459748a90cbaf0a480134, type: 3}
+    clip: {fileID: 8300000, guid: 5188d006412dac14983291eb7fe61a95, type: 3}
     volume: 0.281
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Seahose
-    clip: {fileID: 8300000, guid: e2f8ac44bf0080847bc364d4179048e8, type: 3}
+    clip: {fileID: 8300000, guid: 557f65b6d0294fa4e9319f7067bde97b, type: 3}
     volume: 0.31
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Bottomless Pool
-    clip: {fileID: 8300000, guid: 7b76feb6fdc568846bbc16ef00e7ff29, type: 3}
+    clip: {fileID: 8300000, guid: ba55fb88eedd19f4ead40c630c034366, type: 3}
     volume: 0.193
     pitch: 1
-    isLoop: 0
+    isLoop: 1
     source: {fileID: 0}
   - name: Hellbound
-    clip: {fileID: 8300000, guid: bd186976829d17f45bdd40bb43ea7881, type: 3}
+    clip: {fileID: 8300000, guid: 5a669fc666e287a4c930deca2a80f42e, type: 3}
     volume: 0.533
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Tension
-    clip: {fileID: 8300000, guid: f3eb3e0d8e78bb14594ffbf507a30850, type: 3}
+    clip: {fileID: 8300000, guid: da98f112ddd34b84fb12d6f2c846d346, type: 3}
     volume: 0.34
     pitch: 1
     isLoop: 1
@@ -6860,36 +6860,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
-        type: 3}
-      propertyPath: mouseLook.XSensitivity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
-        type: 3}
-      propertyPath: mouseLook.smooth
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
-        type: 3}
-      propertyPath: mouseLook.YSensitivity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
-        type: 3}
-      propertyPath: mouseLook.smoothTime
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
-        type: 3}
-      propertyPath: mouseLook.clampVerticalRotation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
-        type: 3}
-      propertyPath: mouseLook.lockCursor
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5883315231125161274, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
