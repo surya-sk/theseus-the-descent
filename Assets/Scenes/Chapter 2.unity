@@ -10866,13 +10866,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774592944}
-  m_LocalRotation: {x: -0.026729483, y: -0.13332628, z: 0.0066899275, w: 0.9906891}
-  m_LocalPosition: {x: 395, y: -2.8, z: 1022.9}
+  m_LocalRotation: {x: -0.027510544, y: 0.055278305, z: 0.0015461117, w: 0.99809074}
+  m_LocalPosition: {x: 393.4, y: 0, z: 1024.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1685234689}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -2.9340003, y: -15.360001, z: 1.169}
+  m_LocalEulerAnglesHint: {x: -3.1580002, y: 6.34, z: 0.003}
 --- !u!114 &774592946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10898,7 +10898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveString: Keep following the pathway
+  objectiveString: Approach the body
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 1028686717}
   firstObjective: {fileID: 1493470484}
@@ -13836,7 +13836,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028686717}
   m_LocalRotation: {x: -0.026729483, y: -0.13332628, z: 0.0066899275, w: 0.9906891}
-  m_LocalPosition: {x: 406.15, y: -4.41, z: 991.5}
+  m_LocalPosition: {x: 392.39, y: 0.06, z: 994.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1685234689}
