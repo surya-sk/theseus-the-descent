@@ -56,9 +56,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
             enabled = false;
             navMeshAgent.enabled = false;
         }
-        //DecideAction();
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
-        if (distanceToTarget <= chaseRadius || hasBeenHit)
+        if (hasDetected)
         {
             StopAllCoroutines();
             Engage();
@@ -98,6 +96,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     {
         while (!pathComplete)
         {
+            distanceToTarget = Vector3.Distance(target.position, transform.position);
             Move(destination);
             if (Vector3.Distance(gameObject.transform.position, destination) < 2 && !enemyHealth.EnemyIsDead())
             {
@@ -112,6 +111,10 @@ public class EnemyAI : MonoBehaviour, ISaveable
                 animator.Rebind();
                 animator.SetTrigger("Idle");
                 yield return new WaitForSeconds(3);
+            }
+            if (distanceToTarget <= chaseRadius || hasBeenHit)
+            {
+                hasDetected = true;
             }
             yield return new WaitForSeconds(0);
         }
