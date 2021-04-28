@@ -3064,7 +3064,7 @@ MonoBehaviour:
   objectiveString: Continue along the left
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 1639819135}
-  firstObjective: {fileID: 198564731}
+  firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!65 &198564735
 BoxCollider:
@@ -8993,7 +8993,7 @@ MonoBehaviour:
   objectiveString: Continue without being detected
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 198564731}
-  firstObjective: {fileID: 601302566}
+  firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!65 &601302570
 BoxCollider:
@@ -10901,7 +10901,7 @@ MonoBehaviour:
   objectiveString: Keep following the pathway
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 1028686717}
-  firstObjective: {fileID: 774592944}
+  firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!65 &774592948
 BoxCollider:
@@ -13870,7 +13870,7 @@ MonoBehaviour:
   objectiveString: Pickup gun and keep moving
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 0}
-  firstObjective: {fileID: 1028686717}
+  firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!65 &1028686721
 BoxCollider:
@@ -16510,7 +16510,7 @@ MonoBehaviour:
   objectiveString: Keep following the path
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 601302566}
-  firstObjective: {fileID: 1185833708}
+  firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!65 &1185833712
 BoxCollider:
@@ -24121,7 +24121,7 @@ MonoBehaviour:
   objectiveString: Keep following the pathway
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 774592944}
-  firstObjective: {fileID: 1639819135}
+  firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
 --- !u!65 &1639819139
 BoxCollider:
