@@ -15078,7 +15078,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 0.26415092, g: 0.20279694, b: 0.18814524, a: 1}
-  m_Intensity: 2.12
+  m_Intensity: 0.71
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -20313,10 +20313,97 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2125722786, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
+      propertyPath: angleDecay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2125722786, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
+      propertyPath: minAngle
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2125722786, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
+      propertyPath: intensityDecay
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.04243949
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -2.6645353e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9990991
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4.8650002
+      objectReference: {fileID: 0}
+    - target: {fileID: 654075977612888882, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.56
+      objectReference: {fileID: 0}
     - target: {fileID: 2746819432071836850, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: m_Volume
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 57.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_Range
+      value: 14.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8985945
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.78991634
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478451997248313525, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5885808470020940804, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}

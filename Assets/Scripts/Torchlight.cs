@@ -7,27 +7,23 @@ using UnityEngine;
 
 public class Torchlight : MonoBehaviour, ISaveable
 {
-    [SerializeField] float intensityDecay = 0.1f;
-    [SerializeField] float angleDecay = 1f;
-    [SerializeField] float minAngle = 40;
+    float intensityDecay = 0.1f;
+    float angleDecay = 1f;
+    public float minAngle = 40;
     Light light;
-    [SerializeField] AudioClip clip;
-    bool disableTorchCanvas;
-
+    public AudioClip clip;
+    
     private void Start()
     {
         light = GetComponent<Light>();
         light.enabled = false;
+        StartCoroutine(DecreaseLightAngle());
+        StartCoroutine(DecreaseLightIntensity());
     }
 
     private void Update()
     {
         ToggleLight();
-        if(light.enabled)
-        {
-            DecreaseLightAngle();
-            DecreaseLightIntensity();
-        }
     }
 
     /// <summary>
@@ -41,10 +37,14 @@ public class Torchlight : MonoBehaviour, ISaveable
             if(light.enabled)
             {
                 light.enabled = false;
+                angleDecay = 0.0f;
+                intensityDecay = 0.0f;
             }
             else
             {
                 light.enabled = true;
+                angleDecay = 0.5f;
+                intensityDecay = 0.1f;
             }
         }
     }
@@ -52,21 +52,26 @@ public class Torchlight : MonoBehaviour, ISaveable
     /// <summary>
     /// Decrease the light angle over time
     /// </summary>
-    private void DecreaseLightAngle()
+    IEnumerator DecreaseLightAngle()
     {
-        if(light.spotAngle <= minAngle)
+        while(light.spotAngle >= minAngle)
         {
-            return;
+            light.spotAngle -= angleDecay * Time.deltaTime;
+            yield return new WaitForSeconds(10);
         }
-        light.spotAngle -= angleDecay * Time.deltaTime;
     }
 
     /// <summary>
     /// Decrease the light intensity over time
     /// </summary>
-    private void DecreaseLightIntensity()
+    IEnumerator DecreaseLightIntensity()
     {
-        light.intensity -= intensityDecay * Time.deltaTime;
+        while(light.intensity >= -1)
+        {
+            light.intensity -= intensityDecay * Time.deltaTime;
+            yield return new WaitForSeconds(10);
+
+        }
     }
 
     public void ResetLightAngle(float restoreAmount)
@@ -81,11 +86,14 @@ public class Torchlight : MonoBehaviour, ISaveable
 
     public object CaptureState()
     {
-        return disableTorchCanvas;
+        return $"{light.intensity} {light.spotAngle}";
     }
 
     public void RestoreState(object state)
     {
-        disableTorchCanvas = (bool)state;
+        string result = (string)state;
+        string[] lightValues = result.Split(' ');
+        light.intensity = float.Parse(lightValues[0]);
+        light.spotAngle = float.Parse(lightValues[1]);
     }
 }
