@@ -40,8 +40,10 @@ public class WeaponPickup : MonoBehaviour, ISaveable
     public void RestoreState(object state)
     {
         pickedIndex = (int)state;
-        switchWeapon.WeaponAtIndexEnabled(pickedIndex);
         if(pickedIndex != -1)
+        {
+            switchWeapon.WeaponAtIndexEnabled(pickedIndex);
             Destroy(gameObject);
+        }
     }
 }
