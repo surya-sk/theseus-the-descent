@@ -63,35 +63,10 @@ public class EnemyAI : MonoBehaviour, ISaveable
         }
     }
 
-    /// <summary>
-    /// Decide what to do with player at each frame
-    /// </summary>
-    //private void DecideAction()
-    //{
-    //    distanceToTarget = Vector3.Distance(target.position, transform.position);
-    //    //print(timeSinceLastSawPlayer);
-    //    if (hasDetected)
-    //    {
-    //        Engage();
-    //    }
-    //    if (distanceToTarget <= chaseRadius || hasBeenHit)
-    //    {
-    //        hasDetected = true;
-    //        if (timeSinceLastSawPlayer > 0.13)
-    //            hasBeenHit = false;
-    //    }
-    //    else if (distanceToTarget > chaseRadius && !hasBeenHit && timeSinceLastSawPlayer > 0.13)
-    //    {
-    //        hasDetected = false;
-    //        navMeshAgent.SetDestination(initialPosition);
-    //        if (Vector3.Distance(gameObject.transform.position, initialPosition) < 3 && !enemyHealth.EnemyIsDead())
-    //        {
-    //            animator.SetTrigger("Idle");
-    //        }
-
-    //    }
-    //}
-
+    
+    ///<summary>
+    /// Walk to and from a given point
+    ///</summary>
     IEnumerator Patrol()
     {
         while (!pathComplete)
@@ -144,6 +119,10 @@ public class EnemyAI : MonoBehaviour, ISaveable
         Move(target.position);
     }
 
+    /// <summary>
+    /// Moves the enemy to the given position
+    /// </summary>
+    /// <param name="position"></param>
     private void Move(Vector3 position)
     {
         animator.SetBool("Attack", false);
@@ -175,7 +154,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     /// </summary>
     private void Engage()
     {
-        timeSinceLastSawPlayer = 0;
+        distanceToTarget = Vector3.Distance(target.position, transform.position);
         FaceTarget();
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
@@ -194,20 +173,6 @@ public class EnemyAI : MonoBehaviour, ISaveable
     {
         hasBeenHit = true;
     }
-
-    /* Turned out to be impractical. Might revisit
-     * private void LoopWaypoints()
-     {
-         Vector3 nextPosition = gameObject.transform.position;
-         if(waypoint!= null)
-         {
-             if(Vector3.Distance(gameObject.transform.position, waypoint.GetPosition(currWaypoint)) < 1f)
-             {
-                 currWaypoint = waypoint.GetNextIndex(currWaypoint);
-             }
-         }
-         Move(nextPosition);
-     } */
 
     /// <summary>
     /// Purely for visual feedback during development. No impact on actual game
