@@ -774,6 +774,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 920842344501871971, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1575322061020634657, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -828,6 +833,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897421866194093100, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -104.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897421866194093100, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 103.7
       objectReference: {fileID: 0}
     - target: {fileID: 4378076830900481293, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
@@ -938,6 +953,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Go forward
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843017521191639532, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703263176680541640, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678291509724453097, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678291509724453097, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678291509724453097, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678291509724453097, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678291509724453097, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1a633fa097b4145be30a7348b99089, type: 3}
@@ -1598,7 +1688,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-19958
+  m_Name: pb_Mesh-176126
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2576,6 +2666,8 @@ MonoBehaviour:
   nextObjective: {fileID: 1744127693}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &162257199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3142,6 +3234,8 @@ MonoBehaviour:
   nextObjective: {fileID: 1639819135}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &198564735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4420,7 +4514,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-44460
+  m_Name: pb_Mesh-200628
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4736,7 +4830,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-7098
+  m_Name: pb_Mesh-163266
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9071,6 +9165,8 @@ MonoBehaviour:
   nextObjective: {fileID: 198564731}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &601302570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10979,6 +11075,8 @@ MonoBehaviour:
   nextObjective: {fileID: 1028686717}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &774592948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11855,7 +11953,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-16490
+  m_Name: pb_Mesh-172658
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14020,6 +14118,8 @@ MonoBehaviour:
   nextObjective: {fileID: 162257196}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &1028686721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14659,6 +14759,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd15f627fa8c70e4887ecc3d85c61811, type: 3}
+--- !u!114 &1061619312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7678291509724453097, guid: 6b1a633fa097b4145be30a7348b99089,
+    type: 3}
+  m_PrefabInstance: {fileID: 35890870}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1063012589 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d2db22038a6f9804598cd46453cc7cb8,
@@ -16732,6 +16844,8 @@ MonoBehaviour:
   nextObjective: {fileID: 601302566}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &1185833712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17508,7 +17622,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2566
+  m_Name: pb_Mesh-158734
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18382,7 +18496,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39412
+  m_Name: pb_Mesh-195580
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19503,7 +19617,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-49228
+  m_Name: pb_Mesh-205396
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21929,6 +22043,8 @@ MonoBehaviour:
   nextObjective: {fileID: 1185833708}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &1493470488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21948,7 +22064,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-53626
+  m_Name: pb_Mesh-209794
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22198,7 +22314,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-50628
+  m_Name: pb_Mesh-206796
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24325,6 +24441,8 @@ MonoBehaviour:
   nextObjective: {fileID: 774592944}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &1639819139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26065,6 +26183,8 @@ MonoBehaviour:
   nextObjective: {fileID: 0}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingText: {fileID: 1061619312}
+  savingDemo: {fileID: 823502124}
 --- !u!65 &1744127697
 BoxCollider:
   m_ObjectHideFlags: 0

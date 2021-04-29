@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.UI;
 
 /// <summary>
 /// Updates the objective on trigger
@@ -11,11 +12,12 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
 {
     bool isFinished = false;
     string objective;
-    [SerializeField] string objectiveString;
-    [SerializeField] TextMeshProUGUI objectiveText;
-    [SerializeField] GameObject nextObjective;
-    [SerializeField] GameObject firstObjective;
-    [SerializeField] AudioClip pickupClip;
+    public string objectiveString;
+    public TextMeshProUGUI objectiveText;
+    public GameObject nextObjective;
+    public GameObject firstObjective;
+    public AudioClip pickupClip;
+    public SavingDemo savingDemo;
 
     /// <summary>
     /// Sets the objective active, and activates the next one 
@@ -35,6 +37,7 @@ public class ObjectiveTrigger : MonoBehaviour, ISaveable
                 nextObjective.GetComponent<BoxCollider>().enabled = true;
             }
             ObjectiveManager.GetInstance().SetCurrentObjective(objective);
+            savingDemo.Save();
         }
     }
 
