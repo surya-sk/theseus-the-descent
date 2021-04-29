@@ -2526,31 +2526,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: No Man's Land
-    clip: {fileID: 8300000, guid: 5188d006412dac14983291eb7fe61a95, type: 3}
+    clip: {fileID: 8300000, guid: 318e32fb4c068df46b7911428234f7d5, type: 3}
     volume: 0.281
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Seahose
-    clip: {fileID: 8300000, guid: 557f65b6d0294fa4e9319f7067bde97b, type: 3}
+    clip: {fileID: 8300000, guid: aabf7b6e64f5301429eee5c2eac0289d, type: 3}
     volume: 0.31
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Bottomless Pool
-    clip: {fileID: 8300000, guid: ba55fb88eedd19f4ead40c630c034366, type: 3}
+    clip: {fileID: 8300000, guid: 9dec807b654567a42a4451d6093f0a40, type: 3}
     volume: 0.193
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Hellbound
-    clip: {fileID: 8300000, guid: 5a669fc666e287a4c930deca2a80f42e, type: 3}
+    clip: {fileID: 8300000, guid: 04a646ac31774434185ea941b32e9bbf, type: 3}
     volume: 0.533
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Tension
-    clip: {fileID: 8300000, guid: da98f112ddd34b84fb12d6f2c846d346, type: 3}
+    clip: {fileID: 8300000, guid: c686db49f387b8c48818dd1625809059, type: 3}
     volume: 0.34
     pitch: 1
     isLoop: 1
