@@ -709,7 +709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &35664322
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -1598,7 +1598,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-19960
+  m_Name: pb_Mesh-19958
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4736,7 +4736,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-7100
+  m_Name: pb_Mesh-7098
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11855,7 +11855,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-16492
+  m_Name: pb_Mesh-16490
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
