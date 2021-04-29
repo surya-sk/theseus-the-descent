@@ -11913,6 +11913,83 @@ Transform:
   m_Father: {fileID: 639922724}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833832305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833832306}
+  - component: {fileID: 833832309}
+  - component: {fileID: 833832308}
+  - component: {fileID: 833832307}
+  m_Layer: 0
+  m_Name: Head towards the exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833832306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833832305}
+  m_LocalRotation: {x: 0.0026751943, y: -0.18155871, z: 0.0104546165, w: 0.9833209}
+  m_LocalPosition: {x: 1660.3906, y: 0, z: 939.511}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1685234689}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0.51900005, y: -20.917002, z: 1.1220001}
+--- !u!114 &833832307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833832305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e2aa1dff0884740bc9c19ce2575487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 388685ca-fec1-49b3-bf66-fcd3585eca4a
+--- !u!114 &833832308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833832305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveString: Head towards the exit
+  objectiveText: {fileID: 806755263}
+  nextObjective: {fileID: 0}
+  firstObjective: {fileID: 1493470484}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingDemo: {fileID: 823502124}
+--- !u!65 &833832309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833832305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 48.17516, y: 1, z: 23.55856}
+  m_Center: {x: 3.6751726, y: -0.00000006323159, z: -3.2018719}
 --- !u!1001 &846781902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15078,7 +15155,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 0.26415092, g: 0.20279694, b: 0.18814524, a: 1}
-  m_Intensity: 0.71
+  m_Intensity: 0.9
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -24406,6 +24483,83 @@ Transform:
   m_Father: {fileID: 496824637}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1628193873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1628193877}
+  - component: {fileID: 1628193876}
+  - component: {fileID: 1628193875}
+  - component: {fileID: 1628193874}
+  m_Layer: 0
+  m_Name: Go right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1628193874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628193873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e2aa1dff0884740bc9c19ce2575487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: d6c3ef7a-3daf-4cf5-91e8-ff0bdd61adf2
+--- !u!114 &1628193875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628193873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveString: Head right
+  objectiveText: {fileID: 806755263}
+  nextObjective: {fileID: 833832305}
+  firstObjective: {fileID: 1493470484}
+  pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
+  savingDemo: {fileID: 823502124}
+--- !u!65 &1628193876
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628193873}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 48.17516, y: 1, z: 23.55856}
+  m_Center: {x: 3.6751726, y: -0.00000006323159, z: -3.2018719}
+--- !u!4 &1628193877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628193873}
+  m_LocalRotation: {x: 0.0072474605, y: -0.6197156, z: 0.007995624, w: 0.7847523}
+  m_LocalPosition: {x: 1469.5, y: 0.9, z: 999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1685234689}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 1.22, y: -76.594, z: 0.20400001}
 --- !u!1001 &1628602644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25545,6 +25699,8 @@ Transform:
   - {fileID: 1028686718}
   - {fileID: 162257200}
   - {fileID: 1744127694}
+  - {fileID: 1628193877}
+  - {fileID: 833832306}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26564,7 +26720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveString: Find an exit
   objectiveText: {fileID: 806755263}
-  nextObjective: {fileID: 0}
+  nextObjective: {fileID: 1628193873}
   firstObjective: {fileID: 1493470484}
   pickupClip: {fileID: 8300000, guid: fdf8572503f91984cb72ac1b8c4ecc86, type: 3}
   savingDemo: {fileID: 823502124}

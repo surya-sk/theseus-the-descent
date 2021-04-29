@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89865152882605d49b0142b28d7a337f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intensityDecay: 0.1
-  angleDecay: 1
   minAngle: 40
   clip: {fileID: 8300000, guid: 8f5d976c8de8dc543bd637f2c6dea7b8, type: 3}
 --- !u!1 &7674773878544575201
@@ -1215,6 +1213,11 @@ PrefabInstance:
       propertyPath: clip
       value: 
       objectReference: {fileID: 8300000, guid: 26758df64e6f57f41bbd3e8b2029073b, type: 3}
+    - target: {fileID: 1365890284075870313, guid: f792bff1742e5c849ae83e914e4a307b,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8850910645725643409, guid: f792bff1742e5c849ae83e914e4a307b,
         type: 3}
       propertyPath: m_IsActive
