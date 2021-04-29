@@ -3,6 +3,7 @@
 ///</summary>
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,7 +12,7 @@ public class SceneLoader : MonoBehaviour
     
     public void ReloadGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }
 
@@ -22,6 +23,17 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void StartGame()
+    {
+        if(File.Exists(Path.Combine(Application.persistentDataPath, "Chapter 2.sav")))
+        {
+            Chapter2();
+        }
+        else
+        {
+            Chapter1();
+        }
+    }
     public void Tutorial()
     {
         SceneManager.LoadSceneAsync(1);
@@ -44,12 +56,12 @@ public class SceneLoader : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(4);
     }
 
     public void Credits()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
     public string GetSceneName()
     {

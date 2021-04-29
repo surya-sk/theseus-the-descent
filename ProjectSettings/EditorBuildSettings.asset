@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/End Chapter 1.unity
     guid: 56e8aaa185739834785a9d3a5868fc7c
   - enabled: 1
+    path: Assets/Scenes/End Chapter 2.unity
+    guid: b6720365e83649845a50b9e8b8b24421
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: acfccf367e9a61144adb1838b7fa740d
   m_configObjects:

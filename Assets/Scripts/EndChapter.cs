@@ -10,6 +10,14 @@ public class EndChapter : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(4);
+        switch(SceneManager.GetActiveScene().name)
+        {
+            case "Chapter 1":
+                SceneManager.LoadScene(5);
+                break;
+            case "Chapter 2":
+                SceneManager.LoadScene(6);
+                break;
+        }
     }
 }
