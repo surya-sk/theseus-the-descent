@@ -32,6 +32,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadSceneAsync(2);
     }
 
+    public void Chapter2()
+    {
+        SceneManager.LoadSceneAsync(3);
+    }
+
     public void QuitGame()
     {
         Application.Quit();
