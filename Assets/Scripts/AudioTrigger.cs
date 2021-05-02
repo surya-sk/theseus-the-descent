@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class AudioTrigger : MonoBehaviour
 {
-    [SerializeField] GameObject activeObjecitve;
-    [SerializeField] string soundName;
-    [SerializeField] AudioManager audioManager;
+    public GameObject activeObjecitve;
+    public string soundName;
+    public AudioManager audioManager;
 
     private void OnTriggerEnter(Collider other)
     {

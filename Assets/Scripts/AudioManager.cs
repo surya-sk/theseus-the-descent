@@ -60,6 +60,9 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
     }
 
+    /// <summary>
+    /// Stop playing all music
+    /// </summary>
     public void StopAll()
     {
         foreach(Sound sound in sounds)
