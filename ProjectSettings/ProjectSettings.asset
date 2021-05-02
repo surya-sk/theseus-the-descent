@@ -595,7 +595,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: Surya Kashyap
   metroCertificateIssuer: Surya Kashyap
-  metroCertificateNotAfter: 00e011e7c31bd701
+  metroCertificateNotAfter: 8003b42e7a5ed801
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: 
