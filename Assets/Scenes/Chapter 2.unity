@@ -12870,7 +12870,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716053252}
   m_LocalRotation: {x: 0.0010609357, y: -0.030535983, z: 0.010739186, w: 0.9994754}
-  m_LocalPosition: {x: 1717.4, y: 6.6, z: -33.2}
+  m_LocalPosition: {x: 1725, y: 7, z: -153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 800614794}
@@ -12888,7 +12888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeObjecitve: {fileID: 162257196}
+  activeObjecitve: {fileID: 43160540}
   soundName: Dark Fog
   audioManager: {fileID: 1562828266}
 --- !u!65 &716053255
@@ -27284,13 +27284,13 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 9dec807b654567a42a4451d6093f0a40, type: 3}
     volume: 0.843
     pitch: 1
-    isLoop: 1
+    isLoop: 0
     source: {fileID: 0}
   - name: Monster In The Field
     clip: {fileID: 8300000, guid: 900041ae9dd7fd4499e66606062afb3f, type: 3}
     volume: 0.599
     pitch: 1
-    isLoop: 1
+    isLoop: 0
     source: {fileID: 0}
   - name: Dark Winds
     clip: {fileID: 8300000, guid: 944870f6bd3835f48b83e30393352e51, type: 3}
@@ -27635,7 +27635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578669948}
   m_LocalRotation: {x: 0.0010609357, y: -0.030535983, z: 0.010739186, w: 0.9994754}
-  m_LocalPosition: {x: 1717.5, y: 1.7, z: -33.2}
+  m_LocalPosition: {x: 1720, y: 1, z: -69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1685234689}
