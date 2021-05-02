@@ -1054,6 +1054,31 @@ PrefabInstance:
       propertyPath: m_text
       value: Go forward
       objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -116.20929
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_margin.w
+      value: -44.814667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461227, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -115
+      objectReference: {fileID: 0}
     - target: {fileID: 4378076832670051397, guid: 6b1a633fa097b4145be30a7348b99089,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -23939,6 +23964,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 721149715367912828, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: slots.Array.data[2].ammoAmount
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2746819432071836850, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}

@@ -1179,7 +1179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chapter 3 will be out mid-May.
+  m_text: The game now supports auto-save. Your progress will be saved at each objective.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3749e3631f1922543b68f3e10ea10bc6, type: 2}
   m_sharedMaterial: {fileID: 2906248110119841641, guid: 3749e3631f1922543b68f3e10ea10bc6,
@@ -1249,14 +1249,14 @@ MonoBehaviour:
   m_margin: {x: -471.74353, y: -4.2825623, z: 0, w: -23.201767}
   m_textInfo:
     textComponent: {fileID: 683567964}
-    characterCount: 30
+    characterCount: 79
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 12
+    wordCount: 13
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
