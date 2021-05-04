@@ -23968,7 +23968,7 @@ PrefabInstance:
     - target: {fileID: 721149715367912828, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: slots.Array.data[2].ammoAmount
-      value: 50
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2746819432071836850, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
@@ -24015,6 +24015,11 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 1483515972}
+    - target: {fileID: 5885808470020940804, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 7674773878544575201, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: m_Name
