@@ -51,6 +51,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     // Update is called once per frame
     void Update()
     {
+        distanceToTarget = Vector3.Distance(target.position, transform.position);
         if (enemyHealth.EnemyIsDead())
         {
             enabled = false;
@@ -60,6 +61,10 @@ public class EnemyAI : MonoBehaviour, ISaveable
         {
             StopAllCoroutines();
             Engage();
+        }
+        if (distanceToTarget <= chaseRadius || hasBeenHit)
+        {
+            hasDetected = true;
         }
     }
 
@@ -154,7 +159,6 @@ public class EnemyAI : MonoBehaviour, ISaveable
     /// </summary>
     private void Engage()
     {
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
         FaceTarget();
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {

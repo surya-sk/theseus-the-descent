@@ -61,7 +61,7 @@ public class SceneLoader : MonoBehaviour
 
     public void Credits()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
     }
     public string GetSceneName()
     {

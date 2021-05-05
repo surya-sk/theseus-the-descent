@@ -3519,7 +3519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveString: Continue along the left
+  objectiveString: Continue
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 1744127693}
   firstObjective: {fileID: 1493470484}
@@ -4189,7 +4189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveString: Continue along the left
+  objectiveString: Contine along the left
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 1639819135}
   firstObjective: {fileID: 1493470484}
@@ -14262,7 +14262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756d3ae2769b1bb4ebbf75c31e3ddc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveString: Head straight to grt out of woods
+  objectiveString: Head straight to get out of woods
   objectiveText: {fileID: 806755263}
   nextObjective: {fileID: 1578669948}
   firstObjective: {fileID: 1493470484}
@@ -23913,6 +23913,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1676399996, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
+      propertyPath: Priority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676399997, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
+      propertyPath: BypassEffects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676399997, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
+      propertyPath: Priority
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2125722786, guid: 29e7fdda22a78224c92bae6bc85e0023, type: 3}
       propertyPath: angleDecay
       value: 0.5
@@ -23968,7 +23980,7 @@ PrefabInstance:
     - target: {fileID: 721149715367912828, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: slots.Array.data[2].ammoAmount
-      value: 50
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2746819432071836850, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
@@ -24015,6 +24027,11 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 1483515972}
+    - target: {fileID: 5885808470020940804, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7674773878544575201, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: m_Name
@@ -27311,25 +27328,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Bottomless Pool
-    clip: {fileID: 8300000, guid: 9dec807b654567a42a4451d6093f0a40, type: 3}
+    clip: {fileID: 8300000, guid: a6b0abda4aa6241439f52d5e20563826, type: 3}
     volume: 0.843
     pitch: 1
     isLoop: 0
     source: {fileID: 0}
   - name: Monster In The Field
-    clip: {fileID: 8300000, guid: 900041ae9dd7fd4499e66606062afb3f, type: 3}
+    clip: {fileID: 8300000, guid: 0835411084ae9ba41b79948fb9dbe0ee, type: 3}
     volume: 0.599
     pitch: 1
     isLoop: 0
     source: {fileID: 0}
   - name: Dark Winds
-    clip: {fileID: 8300000, guid: 944870f6bd3835f48b83e30393352e51, type: 3}
+    clip: {fileID: 8300000, guid: 6dd84e1776232b4469d38f22b0711ac2, type: 3}
     volume: 0.599
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Dark Fog
-    clip: {fileID: 8300000, guid: 058c5a1cc16c7a8419b9dbef732f5fe4, type: 3}
+    clip: {fileID: 8300000, guid: 619aac8274b59304c9eae83e06859e08, type: 3}
     volume: 0.467
     pitch: 1
     isLoop: 1
