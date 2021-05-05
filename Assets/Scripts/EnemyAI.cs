@@ -76,7 +76,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     {
         while (!pathComplete)
         {
-            print(distanceToTarget);
+            distanceToTarget = Vector3.Distance(target.position, transform.position);
             Move(destination);
             if (Vector3.Distance(gameObject.transform.position, destination) < 2 && !enemyHealth.EnemyIsDead())
             {
