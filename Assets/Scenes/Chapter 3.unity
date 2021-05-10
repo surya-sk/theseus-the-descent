@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: c71cab56392cafa4188a55d5f76d7e56, type: 2}
+  m_NavMeshData: {fileID: 0}
 --- !u!4 &5238212 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4430851191291080, guid: eebf54138d300114fad97f4aa88de50a,
@@ -14093,12 +14093,17 @@ PrefabInstance:
     - target: {fileID: 5023599894669280521, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_AutoBraking
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5023599894669280521, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
       propertyPath: m_BaseOffset
-      value: 0
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023599894669280521, guid: f1c602a252e5e7f48b7cd07c4e321029,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 5023599894669280525, guid: f1c602a252e5e7f48b7cd07c4e321029,
         type: 3}
