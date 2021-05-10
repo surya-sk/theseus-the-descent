@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33790234168951932}
   - component: {fileID: 23508367731102680}
   - component: {fileID: 835557875429718286}
+  - component: {fileID: 7254995320472836028}
   m_Layer: 0
   m_Name: Struct_Curb_Transition_A
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1328770779352930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -19.981003, y: 16.022743, z: -126.21417}
-  m_LocalScale: {x: 53.89633, y: 1.5447881, z: 9.378315}
+  m_LocalScale: {x: 53.89634, y: 1.5447881, z: 9.378317}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -92,3 +93,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000001, y: 0.15000002, z: 1.0000005}
   m_Center: {x: 0.000007659196, y: 0.075000025, z: 9.130474e-13}
+--- !u!64 &7254995320472836028
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328770779352930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: b8b95feb9436c11409630890728ec471, type: 3}
