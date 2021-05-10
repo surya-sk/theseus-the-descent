@@ -8,7 +8,6 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour, ISaveable
 {
-
     [SerializeField] Transform target;
     [SerializeField] float chaseRadius = 10f;
     [SerializeField] float turnSpeed = 5f;
