@@ -8,15 +8,15 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour, ISaveable
 {
-    [SerializeField] Transform target;
-    [SerializeField] float chaseRadius = 10f;
-    [SerializeField] float turnSpeed = 5f;
-    // [SerializeField] AudioSource walkSound;
-    [SerializeField] AudioSource runSound;
-    [SerializeField] AudioSource attackSFX;
-    [SerializeField] AudioSource breathSFX;
-    [SerializeField] AudioSource growlSFX;
-    [SerializeField] GameObject waypoint;
+    public Transform target;
+    public float chaseRadius = 10f;
+    public float turnSpeed = 5f;
+    // public AudioSource walkSound;
+    public AudioSource runSound;
+    public AudioSource attackSFX;
+    public AudioSource breathSFX;
+    public AudioSource growlSFX;
+    public GameObject waypoint;
     Vector3 destination, endPoint;
     bool pathComplete = false;
     NavMeshAgent navMeshAgent;
@@ -27,7 +27,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     Vector3 initialPosition;
     Animator animator;
     bool hasBeenHit = false;
-    //[SerializeField] Waypoint waypoint;
+    //public Waypoint waypoint;
     //int currWaypoint = 0;
 
     // Start is called before the first frame update
