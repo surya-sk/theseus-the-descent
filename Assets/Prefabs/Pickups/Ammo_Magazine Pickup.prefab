@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 990445743668429326, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: m_Name
-      value: Ammo_Magazine Pickup
+      value: Ammo_Magazine Pickup (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1363701432644437123, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
@@ -25,17 +25,17 @@ PrefabInstance:
     - target: {fileID: 7565601741653538046, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -415.9
       objectReference: {fileID: 0}
     - target: {fileID: 7565601741653538046, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 188.65685
       objectReference: {fileID: 0}
     - target: {fileID: 7565601741653538046, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 272
       objectReference: {fileID: 0}
     - target: {fileID: 7565601741653538046, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
@@ -77,5 +77,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
+        type: 3}
+      propertyPath: ammoIncrement
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
+        type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 49ea1492725956e4195686f4ef2d6b0c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53fa7629f199ed546bf4ad99931e846a, type: 3}
