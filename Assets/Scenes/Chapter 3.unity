@@ -13434,6 +13434,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 721149715367912828, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: slots.Array.data[2].ammoAmount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 721149715367912828, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: slots.Array.data[1].ammoAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 721149715367912828, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: slots.Array.data[0].ammoAmount
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 3467046831581214615, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: ammoText
