@@ -21,7 +21,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     bool pathComplete = false;
     NavMeshAgent navMeshAgent;
     float distanceToTarget;
-    bool hasDetected = false;
+    public bool hasDetected = false;
     EnemyHealth enemyHealth;
     float timeSinceLastSawPlayer;
     Vector3 initialPosition;
@@ -61,9 +61,13 @@ public class EnemyAI : MonoBehaviour, ISaveable
             StopAllCoroutines();
             Engage();
         }
-        if (distanceToTarget <= chaseRadius || hasBeenHit)
+        
+        if(!hasDetected)
         {
-            hasDetected = true;
+            if (distanceToTarget <= chaseRadius || hasBeenHit)
+            {
+                hasDetected = true;
+            }
         }
     }
 
