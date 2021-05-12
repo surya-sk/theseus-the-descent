@@ -42058,6 +42058,31 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -173.28613
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_margin.z
+      value: 75.15283
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_margin.w
+      value: -30.18338
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378076832157461224, guid: 6b1a633fa097b4145be30a7348b99089,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1a633fa097b4145be30a7348b99089, type: 3}
 --- !u!1 &1726566118 stripped
