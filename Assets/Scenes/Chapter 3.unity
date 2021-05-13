@@ -17861,6 +17861,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.XSensitivity
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674773878554812163, guid: 29e7fdda22a78224c92bae6bc85e0023,
+        type: 3}
+      propertyPath: mouseLook.YSensitivity
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8802183318966647605, guid: 29e7fdda22a78224c92bae6bc85e0023,
         type: 3}
       propertyPath: ammoText

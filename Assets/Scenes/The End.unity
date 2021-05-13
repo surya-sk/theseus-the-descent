@@ -970,8 +970,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Gloom
-    clip: {fileID: 8300000, guid: 82f95bcfbf149384293c375775f67a8f, type: 3}
+  - name: Deep Web
+    clip: {fileID: 8300000, guid: 3fe7e7647272bde40ae44d4df8a2b44a, type: 3}
     volume: 0.281
     pitch: 1
     isLoop: 1
@@ -3047,7 +3047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeObjecitve: {fileID: 1628340784}
-  soundName: Gloom
+  soundName: Deep Web
   audioManager: {fileID: 272085616}
 --- !u!65 &1106760537
 BoxCollider:
