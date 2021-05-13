@@ -48375,7 +48375,7 @@ PrefabInstance:
     - target: {fileID: 4015489232031022932, guid: 033c34f318abc4c4c9b427400ac9a8b2,
         type: 3}
       propertyPath: m_text
-      value: Press RT or RMB to interact
+      value: Press LT or RMB to interact
       objectReference: {fileID: 0}
     - target: {fileID: 4015489232031022932, guid: 033c34f318abc4c4c9b427400ac9a8b2,
         type: 3}
