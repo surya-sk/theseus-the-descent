@@ -18,6 +18,9 @@ public class EndChapter : MonoBehaviour
             case "Chapter 2":
                 SceneManager.LoadScene(6);
                 break;
+            case "The End":
+                SceneManager.LoadScene(10);
+                break;
         }
     }
 }
