@@ -6,9 +6,11 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SceneLoader : MonoBehaviour
 {
+    public TextMeshProUGUI loadingText;
     public void ReloadGame()
     {
         SceneManager.LoadScene(0);
@@ -41,27 +43,43 @@ public class SceneLoader : MonoBehaviour
     public void RestartGame()
     {
         Directory.Delete(Application.persistentDataPath, true);
-        Chapter1();
+        StartGame();
     }
 
     public void Tutorial()
     {
-        SceneManager.LoadSceneAsync(1);
+        LoadScene(1);
     }
 
     public void Chapter1()
     {
-        SceneManager.LoadSceneAsync(2);
+        LoadScene(2);
+    }
+
+    private void LoadScene(int index)
+    {
+        StartCoroutine(LoadAsync(index));
+    }
+
+    IEnumerator LoadAsync(int sceneIndex)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+        if (operation.progress < 1.0) 
+        {
+            loadingText.text = "Loading...";
+            yield return new WaitForSeconds(3);
+        }
+        loadingText.text = string.Empty;
     }
 
     public void Chapter2()
     {
-        SceneManager.LoadSceneAsync(3);
+        LoadScene(3);
     }
 
     public void Chapter3()
     {
-        SceneManager.LoadSceneAsync(8);
+        LoadScene(8);
     }
     public void QuitGame()
     {
