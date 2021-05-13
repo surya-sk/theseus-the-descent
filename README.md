@@ -1,18 +1,15 @@
 ## Description
-Theseus: The Descent is a first-person horror shooter made using the Unity Engine. Chapter 2 is now out! The game is set in a dark zombie-filled forest.
-
-There are currently three gun types and three ammo types in the game. Flashlight pickups are also available in game. 
+Theseus: The Descent is a first-person horror shooter made using the Unity Engine. The game has 3 chapters, each one of them exploring a different aspect of game design. 
 
 ## Installation
 The game is free to download for Windows 10 PCs, Xbox One and Xbox Series X via the Microsoft Store, made possible by the Universal Windows Platform framework.
-
-If you'd like an exe file, check the Releases section. Keep in mind that the non-Microsoft Store version is LTS and isn't regularly updated. And you will lose automatic updates, so it is recommended to get it from the Store.
 
 <a href='https://www.microsoft.com/en-us/p/theseus-the-descent/9nwzzffbw70t?activetab=pivot:overviewtab'><img src='https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png' alt='Store Link' height="50px"/></a>
 
 ## Screenshots
 [![2-0-Desktop2.png](https://i.postimg.cc/ZR4nPWJH/2-0-Desktop2.png)](https://postimg.cc/rdZqMF0R)
 [![2-1-Desktop1.png](https://i.postimg.cc/632pY0ts/2-1-Desktop1.png)](https://postimg.cc/k6CC5W2w)
+[![3-0-Desktop2.png](https://i.postimg.cc/258RC3f1/3-0-Desktop2.png)](https://postimg.cc/ZWgDcbnm)
 
 ## Running this project
 To run this project, you need to have Visual Studio 2017 or higher. You need to have following components installed:
