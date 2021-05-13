@@ -25,10 +25,14 @@ public class SceneLoader : MonoBehaviour
 
     public void StartGame()
     {
-        if(File.Exists(Path.Combine(Application.persistentDataPath, "Chapter 2.sav")))
+        if (File.Exists(Path.Combine(Application.persistentDataPath, "Chapter 2.sav")))
+        {
+            Chapter3();
+        }
+        else if (File.Exists(Path.Combine(Application.persistentDataPath, "Chapter 2.sav")))
         {
             Chapter2();
-        }
+         }
         else
         {
             Chapter1();
@@ -49,6 +53,10 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadSceneAsync(3);
     }
 
+    public void Chapter3()
+    {
+        SceneManager.LoadSceneAsync(8);
+    }
     public void QuitGame()
     {
         Application.Quit();
