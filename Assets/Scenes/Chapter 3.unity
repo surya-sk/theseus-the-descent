@@ -2497,6 +2497,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 119067813}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &119432005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 119432006}
+  - component: {fileID: 119432008}
+  - component: {fileID: 119432007}
+  m_Layer: 0
+  m_Name: Hunter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &119432006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119432005}
+  m_LocalRotation: {x: 0.010055834, y: -0.92370504, z: 0.004168949, w: 0.38294974}
+  m_LocalPosition: {x: -417.8, y: 187.64, z: 282.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416350548}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.883, y: -134.97101, z: -0.882}
+--- !u!114 &119432007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119432005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 1071169367}
+  soundName: Hunted
+  audioManager: {fileID: 1225983484}
+--- !u!65 &119432008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119432005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.629007, y: 3.4112206, z: 35.292995}
+  m_Center: {x: -4.814504, y: 1.2056049, z: -13.956137}
 --- !u!1001 &123060557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12938,6 +12998,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 521053980}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &523332661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 523332662}
+  - component: {fileID: 523332664}
+  - component: {fileID: 523332663}
+  m_Layer: 0
+  m_Name: Lost in the nowhere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &523332662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523332661}
+  m_LocalRotation: {x: 0.0026364175, y: -0.24217515, z: 0.010561686, w: 0.9701715}
+  m_LocalPosition: {x: 511.4, y: 6.5, z: 303.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416350548}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.586, y: -28.026001, z: 1.1010001}
+--- !u!114 &523332663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523332661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 1457923569}
+  soundName: Lost in the Nowhere
+  audioManager: {fileID: 1225983484}
+--- !u!65 &523332664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523332661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.629007, y: 3.4112206, z: 35.292995}
+  m_Center: {x: -4.814504, y: 1.2056049, z: -13.956137}
 --- !u!1001 &525624013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30190,6 +30310,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1225327815}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225983483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225983485}
+  - component: {fileID: 1225983484}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1225983484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225983483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a2e6b47df657143bfe751787c90fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Dark Fog
+    clip: {fileID: 8300000, guid: cf811113ed4245741a723cbdddbc1222, type: 3}
+    volume: 0.307
+    pitch: 1
+    isLoop: 1
+    source: {fileID: 0}
+  - name: Lost in the Nowhere
+    clip: {fileID: 8300000, guid: 3169347cf5ae00046bf3ced12304fe60, type: 3}
+    volume: 0.204
+    pitch: 1
+    isLoop: 1
+    source: {fileID: 0}
+  - name: Piano Horror
+    clip: {fileID: 8300000, guid: 5f67074a9f372b9448a87a6fbd8c10d3, type: 3}
+    volume: 0.616
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Fragments of Bangkok
+    clip: {fileID: 8300000, guid: 774010d268bc7204fba45e53336952d5, type: 3}
+    volume: 0.595
+    pitch: 1
+    isLoop: 1
+    source: {fileID: 0}
+  - name: Hunted
+    clip: {fileID: 8300000, guid: 396f8deca07ed8b43943c88ff2f3f021, type: 3}
+    volume: 0.657
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+--- !u!4 &1225983485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225983483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1232863752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34607,6 +34801,41 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1410297394}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1416350547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1416350548}
+  m_Layer: 0
+  m_Name: AudioTriggers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1416350548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416350547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2014244726}
+  - {fileID: 523332662}
+  - {fileID: 1904880445}
+  - {fileID: 1785316542}
+  - {fileID: 119432006}
+  m_Father: {fileID: 0}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1417152885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4887608928835568, guid: 1f07ca988eec6324fba9740732d6eb4c,
@@ -45004,6 +45233,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1784670672}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1785316541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1785316542}
+  - component: {fileID: 1785316544}
+  - component: {fileID: 1785316543}
+  m_Layer: 0
+  m_Name: Fragments of Bangkok
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1785316542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785316541}
+  m_LocalRotation: {x: 0.010864516, y: -0.9979885, z: -0.0006798951, w: -0.062453676}
+  m_LocalPosition: {x: 98.47, y: 198.4, z: 786.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416350548}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.156, y: -187.15999, z: -1.238}
+--- !u!114 &1785316543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785316541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 1594095058}
+  soundName: Fragments of Bangkok
+  audioManager: {fileID: 1225983484}
+--- !u!65 &1785316544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785316541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.629007, y: 3.4112206, z: 35.292995}
+  m_Center: {x: -4.814504, y: 1.2056049, z: -13.956137}
 --- !u!1001 &1785848584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47600,6 +47889,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1902514502}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1904880444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1904880445}
+  - component: {fileID: 1904880447}
+  - component: {fileID: 1904880446}
+  m_Layer: 0
+  m_Name: Piano horror
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1904880445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904880444}
+  m_LocalRotation: {x: 0.007856448, y: -0.72167486, z: 0.0075349933, w: 0.6921466}
+  m_LocalPosition: {x: 812.8, y: 24, z: 696.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416350548}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 1.246, y: -92.394005, z: -0.052}
+--- !u!114 &1904880446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904880444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 1949886815}
+  soundName: Piano Horror
+  audioManager: {fileID: 1225983484}
+--- !u!65 &1904880447
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904880444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.629007, y: 3.4112206, z: 35.292995}
+  m_Center: {x: -4.814504, y: 1.2056049, z: -13.956137}
 --- !u!1001 &1908159180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50077,6 +50426,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2009244557}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2014244725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014244726}
+  - component: {fileID: 2014244728}
+  - component: {fileID: 2014244727}
+  m_Layer: 0
+  m_Name: Dark fog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014244726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014244725}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 257.46, y: 0, z: 139}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416350548}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2014244727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014244725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfa0760389532e4a8b119944ec5b066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeObjecitve: {fileID: 277310099}
+  soundName: Dark Fog
+  audioManager: {fileID: 1225983484}
+--- !u!65 &2014244728
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014244725}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.059021, y: 3.4112206, z: 86.3792}
+  m_Center: {x: -7.5295105, y: 1.2056103, z: -5.654339}
 --- !u!1001 &2015715193
 PrefabInstance:
   m_ObjectHideFlags: 0
