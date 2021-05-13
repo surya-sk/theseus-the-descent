@@ -90,7 +90,7 @@ PrefabInstance:
     - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: ammoIncrement
-      value: 10
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
