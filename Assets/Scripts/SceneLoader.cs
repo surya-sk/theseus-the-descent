@@ -26,7 +26,7 @@ public class SceneLoader : MonoBehaviour
 
     public void StartGame()
     {
-        if (File.Exists(Path.Combine(Application.persistentDataPath, "Chapter 2.sav")))
+        if (File.Exists(Path.Combine(Application.persistentDataPath, "Chapter 3.sav")))
         {
             Chapter3();
         }
