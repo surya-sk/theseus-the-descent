@@ -7,10 +7,10 @@ using UnityEngine;
 /// </summary>
 public class DayNight : MonoBehaviour, ISaveable
 {
-    [SerializeField] Material afternoonSkybox;
-    [SerializeField] Material nightSkybox;
+    public Material afternoonSkybox;
+    public Material nightSkybox;
     Light light;
-    [SerializeField]float lightMultiplier;
+    public float lightMultiplier;
 
     // Start is called before the first frame update
     void Start()

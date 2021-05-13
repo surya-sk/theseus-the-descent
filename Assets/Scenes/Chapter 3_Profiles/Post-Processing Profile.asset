@@ -304,13 +304,13 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: 33.3
+    value: 55
   tint:
     overrideState: 0
     value: 25.6
   colorFilter:
-    overrideState: 0
-    value: {r: 0.9716981, g: 0.9715575, b: 0.9212798, a: 1}
+    overrideState: 1
+    value: {r: 0.7735849, g: 0.582537, b: 0.13501246, a: 1}
   hueShift:
     overrideState: 0
     value: -40
