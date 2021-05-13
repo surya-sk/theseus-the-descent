@@ -9,7 +9,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    
     public void ReloadGame()
     {
         SceneManager.LoadScene(0);
@@ -38,6 +37,13 @@ public class SceneLoader : MonoBehaviour
             Chapter1();
         }
     }
+
+    public void RestartGame()
+    {
+        Directory.Delete(Application.persistentDataPath, true);
+        Chapter1();
+    }
+
     public void Tutorial()
     {
         SceneManager.LoadSceneAsync(1);
