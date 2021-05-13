@@ -585,7 +585,8 @@ MonoBehaviour:
 
     Hunted composed by Radical Face from the record Missing Film (2018).
 
-    To check out these songs and more by Drkblu, visit his Bandcamp page at drkblu.bandcamp.com'
+    To check out these songs and more by Drkblu, visit his Bandcamp page at drkblu.bandcamp.com
+    or listen to him on Spotify at https://open.spotify.com/artist/3XkoPIHWTXgaexpxw3psAH?si=H1EWBupKQ0q3Rh2uQnCG3w'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3749e3631f1922543b68f3e10ea10bc6, type: 2}
   m_sharedMaterial: {fileID: 2906248110119841641, guid: 3749e3631f1922543b68f3e10ea10bc6,
@@ -631,7 +632,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 278
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -655,14 +656,14 @@ MonoBehaviour:
   m_margin: {x: -956.39954, y: 0, z: -411.66034, w: -89.167595}
   m_textInfo:
     textComponent: {fileID: 521869424}
-    characterCount: 257
+    characterCount: 369
     spriteCount: 0
-    spaceCount: 40
-    wordCount: 43
+    spaceCount: 48
+    wordCount: 58
     linkCount: 0
-    lineCount: 3
+    lineCount: 4
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1001,6 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f198c48474d341b49a3f2f35c20dc5aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingText: {fileID: 0}
 --- !u!4 &741365234
 Transform:
   m_ObjectHideFlags: 0
@@ -1147,7 +1149,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 1.25
+  m_padding: 0
   m_canvasRenderer: {fileID: 795949327}
   m_TextComponent: {fileID: 353230775}
   m_materialReferenceIndex: 1
@@ -1780,7 +1782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Music (in order of appearance):'
+  m_text: 'Music:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3749e3631f1922543b68f3e10ea10bc6, type: 2}
   m_sharedMaterial: {fileID: 2906248110119841641, guid: 3749e3631f1922543b68f3e10ea10bc6,
@@ -1850,10 +1852,10 @@ MonoBehaviour:
   m_margin: {x: 17.576965, y: 0, z: -341.8443, w: 11.165741}
   m_textInfo:
     textComponent: {fileID: 1629652686}
-    characterCount: 31
+    characterCount: 6
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 5
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
