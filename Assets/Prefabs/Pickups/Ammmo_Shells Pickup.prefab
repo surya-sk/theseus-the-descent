@@ -179,8 +179,13 @@ PrefabInstance:
     - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: ammoIncrement
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
+        type: 3}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 49ea1492725956e4195686f4ef2d6b0c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53fa7629f199ed546bf4ad99931e846a, type: 3}
 --- !u!4 &1315096607252437049 stripped

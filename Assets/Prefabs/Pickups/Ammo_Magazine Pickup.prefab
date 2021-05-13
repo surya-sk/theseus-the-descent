@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 990445743668429326, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: m_Name
-      value: Ammo_Magazine Pickup (2)
+      value: Ammo_Magazine Pickup
       objectReference: {fileID: 0}
     - target: {fileID: 1363701432644437123, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
@@ -80,7 +80,7 @@ PrefabInstance:
     - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: ammoIncrement
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}

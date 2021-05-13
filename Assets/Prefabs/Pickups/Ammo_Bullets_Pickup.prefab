@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 990445743668429326, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
       propertyPath: m_Name
-      value: Ammo_Bullets_Pickup (2)
+      value: Ammo_Bullets_Pickup
       objectReference: {fileID: 0}
     - target: {fileID: 3052650211241363314, guid: 53fa7629f199ed546bf4ad99931e846a,
         type: 3}
@@ -91,6 +91,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ammoIncrement
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8586578508764842726, guid: 53fa7629f199ed546bf4ad99931e846a,
+        type: 3}
+      propertyPath: ammoType
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53fa7629f199ed546bf4ad99931e846a, type: 3}
