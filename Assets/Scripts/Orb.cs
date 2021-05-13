@@ -10,6 +10,7 @@ public class Orb : MonoBehaviour
     bool inArea = false;
     float countdown = 10;
     bool startTimer = false;
+    public AudioSource explosionClip;
 
     private void Start()
     {
@@ -25,6 +26,10 @@ public class Orb : MonoBehaviour
             {
                 imageCanvas.enabled = true;
                 fadeOutImage.CrossFadeAlpha(1, 2, false);
+                if(!explosionClip.isPlaying)
+                {
+                    explosionClip.Play();
+                }
                 startTimer = true;
             }
         }

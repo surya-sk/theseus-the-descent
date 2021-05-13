@@ -120,7 +120,7 @@ public class EnemyAI : MonoBehaviour, ISaveable
     /// </summary>
     private void StartChase()
     {
-        if (growlSFX.isPlaying == false)
+        if (!growlSFX.isPlaying)
         {
             growlSFX.Play();
         }
