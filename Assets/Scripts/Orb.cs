@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.IO;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -42,6 +43,7 @@ public class Orb : MonoBehaviour
             }
             else
             {
+                File.Delete(Path.Combine(Application.persistentDataPath, "The End.sav"));
                 SceneManager.LoadScene(9);
             }
         }

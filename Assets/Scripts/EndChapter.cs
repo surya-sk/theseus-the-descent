@@ -19,7 +19,7 @@ public class EndChapter : MonoBehaviour
                 SceneManager.LoadScene(6);
                 break;
             case "The End":
-                SceneManager.LoadScene(10);
+                SceneManager.LoadScene(7);
                 break;
         }
     }
