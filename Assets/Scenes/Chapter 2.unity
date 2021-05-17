@@ -27328,25 +27328,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Bottomless Pool
-    clip: {fileID: 8300000, guid: 8a52a4e443b49394a85e36415bb0b9f2, type: 3}
+    clip: {fileID: 8300000, guid: 56401a39654dddb4bb0b822fc22360f3, type: 3}
     volume: 0.843
     pitch: 1
     isLoop: 0
     source: {fileID: 0}
   - name: Monster In The Field
-    clip: {fileID: 8300000, guid: aaa40699cdadc34489149cfad336f569, type: 3}
+    clip: {fileID: 8300000, guid: 2e375115d4dbfa048973ad35d4a7cc8e, type: 3}
     volume: 0.599
     pitch: 1
     isLoop: 0
     source: {fileID: 0}
   - name: Dark Winds
-    clip: {fileID: 8300000, guid: a3924b0bd05410b42bb0bd5dc0c195f7, type: 3}
+    clip: {fileID: 8300000, guid: f567af6f16dc5bb4881cfa8cc67d54ea, type: 3}
     volume: 0.599
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Dark Fog
-    clip: {fileID: 8300000, guid: cf811113ed4245741a723cbdddbc1222, type: 3}
+    clip: {fileID: 8300000, guid: 5813d6eba99fa614aaeac2fb9b963e86, type: 3}
     volume: 0.467
     pitch: 1
     isLoop: 1

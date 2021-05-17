@@ -1337,7 +1337,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The game supports autosave. The state is saved at each objective. '
+  m_text: Join r/Theseus_The_Descent on Reddit to follow and discuss the game with
+    other players!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3749e3631f1922543b68f3e10ea10bc6, type: 2}
   m_sharedMaterial: {fileID: 2906248110119841641, guid: 3749e3631f1922543b68f3e10ea10bc6,
@@ -1407,14 +1408,14 @@ MonoBehaviour:
   m_margin: {x: -471.74353, y: -4.2825623, z: 0, w: -23.201767}
   m_textInfo:
     textComponent: {fileID: 683567964}
-    characterCount: 66
+    characterCount: 87
     spriteCount: 0
-    spaceCount: 11
-    wordCount: 11
+    spaceCount: 12
+    wordCount: 16
     linkCount: 0
     lineCount: 2
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1484,7 +1485,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 99593aa36b7e0cd4590c494467f451a2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d549824f1f09e644eb9237121844d210, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2737,7 +2738,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 0
+  m_padding: 1.25
   m_canvasRenderer: {fileID: 1325761191}
   m_TextComponent: {fileID: 683567964}
   m_materialReferenceIndex: 1

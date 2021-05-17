@@ -990,8 +990,8 @@ MonoBehaviour:
     Hunted and Tension composed by Radical Face from the record Missing Film (2018).
 
 
-    To check out these songs and more by Drkblu, visit his Bandcamp page at drkblu.bandcamp.com
-    or listen to him on Spotify at https://open.spotify.com/artist/3XkoPIHWTXgaexpxw3psAH?si=H1EWBupKQ0q3Rh2uQnCG3w'
+    To check out these songs and more by Drkblu, visit https://linktr.ee/Drkblu or
+    search for him on Spotify/Soundcloud/Bandcamp'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3749e3631f1922543b68f3e10ea10bc6, type: 2}
   m_sharedMaterial: {fileID: 2906248110119841641, guid: 3749e3631f1922543b68f3e10ea10bc6,
@@ -1061,10 +1061,10 @@ MonoBehaviour:
   m_margin: {x: -956.39954, y: 0, z: -411.66034, w: -495.57434}
   m_textInfo:
     textComponent: {fileID: 521869424}
-    characterCount: 460
+    characterCount: 381
     spriteCount: 0
-    spaceCount: 68
-    wordCount: 77
+    spaceCount: 62
+    wordCount: 67
     linkCount: 0
     lineCount: 12
     pageCount: 1
@@ -2056,7 +2056,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 82f95bcfbf149384293c375775f67a8f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a74a63b48bb5307468b51923d47cb9ff, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
