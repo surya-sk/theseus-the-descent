@@ -2427,31 +2427,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: No Man's Land
-    clip: {fileID: 8300000, guid: 54fc9a1c239fbd34a9ef63e14bec6e8c, type: 3}
+    clip: {fileID: 8300000, guid: 269eb9f17be216b43bad6fe15a7701f3, type: 3}
     volume: 0.281
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Seahose
-    clip: {fileID: 8300000, guid: 6d07510524da5b644ab9c9be41dffda9, type: 3}
+    clip: {fileID: 8300000, guid: 4d532625c4748a242a5dd1d3480c552d, type: 3}
     volume: 0.31
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Bottomless Pool
-    clip: {fileID: 8300000, guid: 56401a39654dddb4bb0b822fc22360f3, type: 3}
+    clip: {fileID: 8300000, guid: fa65fa64f1187af47b2bdd14252d329b, type: 3}
     volume: 0.193
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Hellbound
-    clip: {fileID: 8300000, guid: 51db4fe21c429ab419d6f7a033eec45e, type: 3}
+    clip: {fileID: 8300000, guid: 05defc563a34cbc43b4432636eb45ee1, type: 3}
     volume: 0.533
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Tension
-    clip: {fileID: 8300000, guid: f425541ff92795c49bdb3c7f45db5c71, type: 3}
+    clip: {fileID: 8300000, guid: 326b0407b0ad73d47b52d01cb63375b4, type: 3}
     volume: 0.34
     pitch: 1
     isLoop: 1
@@ -4295,7 +4295,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 531779944}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c338384ca3212c4db20926369b8fe47, type: 3}
+  m_Script: {fileID: 11500000, guid: 68315238672ccc94c8c9d0627f9b059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 414251489}
@@ -6939,7 +6939,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 768481538}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c338384ca3212c4db20926369b8fe47, type: 3}
+  m_Script: {fileID: 11500000, guid: 68315238672ccc94c8c9d0627f9b059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 265035524}
@@ -15488,11 +15488,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1673336355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c338384ca3212c4db20926369b8fe47, type: 3}
+  m_Script: {fileID: 11500000, guid: 68315238672ccc94c8c9d0627f9b059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 1745938637}
-  activeObjective: {fileID: 1900314670}
+  activeObjective: {fileID: 1720078993}
 --- !u!1001 &1684949012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18353,11 +18353,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1940543875}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c338384ca3212c4db20926369b8fe47, type: 3}
+  m_Script: {fileID: 11500000, guid: 68315238672ccc94c8c9d0627f9b059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 1538835338}
-  activeObjective: {fileID: 1900314670}
+  activeObjective: {fileID: 858022677}
 --- !u!1001 &1974236628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19344,7 +19344,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2079011121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c338384ca3212c4db20926369b8fe47, type: 3}
+  m_Script: {fileID: 11500000, guid: 68315238672ccc94c8c9d0627f9b059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 422199778}
@@ -20257,7 +20257,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2140408675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c338384ca3212c4db20926369b8fe47, type: 3}
+  m_Script: {fileID: 11500000, guid: 68315238672ccc94c8c9d0627f9b059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 1600308171}

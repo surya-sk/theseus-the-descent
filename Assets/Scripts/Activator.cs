@@ -11,6 +11,15 @@ public class Activator : MonoBehaviour, ISaveable
     [SerializeField] GameObject activeObjective;
     bool activated;
 
+    private void Update()
+    {
+        if (activated)
+        {
+            print(objectToActivate.name);
+            objectToActivate.SetActive(true);
+        }
+    }
+
     public object CaptureState()
     {
         return activated;
@@ -32,7 +41,6 @@ public class Activator : MonoBehaviour, ISaveable
         {
             if(activeObjective.GetComponent<BoxCollider>().enabled)
             {
-                objectToActivate.SetActive(true);
                 activated = true;
             }
         }
