@@ -30592,31 +30592,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Dark Fog
-    clip: {fileID: 8300000, guid: 5813d6eba99fa614aaeac2fb9b963e86, type: 3}
+    clip: {fileID: 8300000, guid: e47923e034f9e184295a9c2820b12df4, type: 3}
     volume: 0.307
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Lost in the Nowhere
-    clip: {fileID: 8300000, guid: 87fa99d4f1a861842853b341538a078d, type: 3}
+    clip: {fileID: 8300000, guid: ed3558ee88f62b844ab0dfe58ceb9525, type: 3}
     volume: 0.204
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Piano Horror
-    clip: {fileID: 8300000, guid: 5514dc3f44adade4c81699dc2629687c, type: 3}
+    clip: {fileID: 8300000, guid: 8a74230851c10cf4bb8b684c1fdf5ce3, type: 3}
     volume: 0.616
     pitch: 1
     isLoop: 0
     source: {fileID: 0}
   - name: Fragments of Bangkok
-    clip: {fileID: 8300000, guid: 359393e8673b0f64fb24a7e47e06d00a, type: 3}
+    clip: {fileID: 8300000, guid: 16b888e1fba44aa4c918d26543528224, type: 3}
     volume: 0.595
     pitch: 1
     isLoop: 1
     source: {fileID: 0}
   - name: Hunted
-    clip: {fileID: 8300000, guid: baa5f9b1a8b1fb44588b93efbe5ce7cd, type: 3}
+    clip: {fileID: 8300000, guid: cfa65914680acad4689a49eefbb463d7, type: 3}
     volume: 0.657
     pitch: 1
     isLoop: 0
